@@ -2084,7 +2084,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0A -> 5V\nPick 6A as max current for short detection. Ignitors should pull 3-4A.\nVout_max = 5 - 6A * Rsense * Gain\n          = 5 - 6 * 0.005 * 100\n          = 2V\n\nI_IGN = (5 - V_out) / (0.005 * 100)"
+	(text "0A -> 5V\nPick 6A as max current for short detection. Ignitors should pull 3-4A.\nVout_min = 5 - 6A * Rsense * Gain\n          = 5 - 6 * 0.025 * 20\n          = 2V\nAt 0A, output should be 5V\n\nI_IGN = (5 - V_out) / (0.025 * 20)"
 		(exclude_from_sim no)
 		(at 78.486 138.938 0)
 		(effects
@@ -4179,21 +4179,21 @@
 		(fields_autoplaced yes)
 		(uuid "c9831f46-ea3b-4cf9-a715-c387e6f0ca4f")
 		(property "Reference" "R50"
-			(at 181.61 95.2501 0)
+			(at 176.53 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "22k"
-			(at 181.61 92.7101 0)
+		(property "Value" "39k"
+			(at 176.53 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"

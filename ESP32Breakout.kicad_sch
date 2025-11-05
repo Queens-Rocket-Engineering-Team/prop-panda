@@ -3737,6 +3737,16 @@
 		)
 		(uuid "7df66b21-79a7-4c5c-ac34-ec0a9119eedf")
 	)
+	(text "24V*(39/(39+270))=3.03V SAFE_DETECT"
+		(exclude_from_sim no)
+		(at 226.06 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9ac62a1-ee47-4917-8c5a-9865b316aa91")
+	)
 	(junction
 		(at 24.13 24.13)
 		(diameter 0)
@@ -6429,7 +6439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "39k"
 			(at 190.5 95.2499 0)
 			(effects
 				(font

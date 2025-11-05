@@ -4718,21 +4718,21 @@
 		(fields_autoplaced yes)
 		(uuid "0af150d9-d83e-4f4e-aed5-70055fadd2b2")
 		(property "Reference" "R40"
-			(at 264.16 73.6601 0)
+			(at 259.08 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 264.16 71.1201 0)
+		(property "Value" "3.3k"
+			(at 259.08 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -7834,21 +7834,21 @@
 		(fields_autoplaced yes)
 		(uuid "ada9853c-0040-4359-8eb2-596133268b59")
 		(property "Reference" "R29"
-			(at 39.37 135.8901 0)
+			(at 34.29 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "22k"
-			(at 39.37 133.3501 0)
+		(property "Value" "39k"
+			(at 34.29 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -8211,21 +8211,21 @@
 		(fields_autoplaced yes)
 		(uuid "bf51905d-875e-47d5-a103-8ca6dd0bddc2")
 		(property "Reference" "R32"
-			(at 71.12 78.7401 0)
+			(at 66.04 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "22k"
-			(at 71.12 76.2001 0)
+		(property "Value" "39k"
+			(at 66.04 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -8812,21 +8812,21 @@
 		(fields_autoplaced yes)
 		(uuid "db96d162-cb2a-4271-9ddc-6fa7ae5dc743")
 		(property "Reference" "R33"
-			(at 82.55 148.5901 0)
+			(at 77.47 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "22k"
-			(at 82.55 146.0501 0)
+		(property "Value" "39k"
+			(at 77.47 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
