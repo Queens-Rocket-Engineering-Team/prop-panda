@@ -109,6 +109,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -52620,7 +52621,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "PANDA\nPropulsion Actuation and Nominal Data Acquisition\nV1.1.0\nSep 10 2025\nNoah Warren"
+	(gr_text "PANDA\nPropulsion Actuation and Nominal Data Acquisition\nV2.0.0\nNov 6th 2025\nNoah Warren"
 		(at 69.75 151.5 0)
 		(layer "F.SilkS")
 		(uuid "f693c0c0-2a60-48fd-823c-a25f58d1b5b6")
