@@ -109,7 +109,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -42233,7 +42232,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f8767323-7232-4929-a06e-37ce3f49e439")
+			(uuid "687c8a50-a2d9-48ae-9cc3-63818ba4a53d")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -42245,7 +42244,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bf6e10e5-4130-496c-b352-2f1a464a9630")
+			(uuid "6c39ac0d-167f-40fa-91b8-4d27f2d01e4f")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -42257,7 +42256,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84a5e3dc-dd41-4153-8a8b-6b47a30d90bf")
+			(uuid "7d906e17-3111-4ca4-a6c6-d770ccf4c45d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42269,7 +42268,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44722a91-761f-4d39-bbd0-3d2daf5afbe5")
+			(uuid "9bea3023-df2e-4526-8760-6ceac222183f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52621,7 +52620,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "PANDA\nPropulsion Actuation and Nominal Data Acquisition\nV2.0.0\nNov 6th 2025\nNoah Warren"
+	(gr_text "PANDA\nPropulsion Actuation and Nominal Data Acquisition\nV2.0.0\nNov 6th 2025\nNoah Warren, Nathan Belza"
 		(at 69.75 151.5 0)
 		(layer "F.SilkS")
 		(uuid "f693c0c0-2a60-48fd-823c-a25f58d1b5b6")
