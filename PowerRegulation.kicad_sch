@@ -1198,156 +1198,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:MBR0540"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MBR0540"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 0.5A Schottky Power Rectifier Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MBR0540_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MBR0540_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:XC6220B331MR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3429,7 +3279,7 @@
 		(uuid "9c17039e-348b-49f9-b2cb-36c6fc6492e9")
 	)
 	(junction
-		(at 199.39 105.41)
+		(at 199.39 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e694c35-faf4-403c-b3c4-57afd5f4f81b")
@@ -3742,7 +3592,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 111.76) (xy 199.39 113.03)
+			(xy 199.39 107.95) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3932,7 +3782,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 105.41) (xy 199.39 106.68)
+			(xy 199.39 101.6) (xy 199.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3979,16 +3829,6 @@
 			(type default)
 		)
 		(uuid "6214b4ac-672c-48a8-932a-bd639b64aa98")
-	)
-	(wire
-		(pts
-			(xy 199.39 95.25) (xy 199.39 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "662ca154-35d0-44d0-81b4-8f7a6596851c")
 	)
 	(wire
 		(pts
@@ -4122,13 +3962,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 105.41) (xy 199.39 105.41)
+			(xy 198.12 101.6) (xy 199.39 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b662a59-4d9b-42d4-96f8-d3644bcd02c3")
+	)
+	(wire
+		(pts
+			(xy 199.39 95.25) (xy 199.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf4454c-dfd2-4f64-a0de-a2284d91d6e7")
 	)
 	(wire
 		(pts
@@ -4232,16 +4082,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 199.39 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1fafe9-2fff-493c-8adf-b7beeff1cb52")
-	)
-	(wire
-		(pts
 			(xy 55.88 44.45) (xy 71.12 44.45)
 		)
 		(stroke
@@ -4309,16 +4149,6 @@
 			(type default)
 		)
 		(uuid "d6a8acca-66b6-4237-ac6b-e6b52c54c8c5")
-	)
-	(wire
-		(pts
-			(xy 199.39 105.41) (xy 199.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91229ee-58cd-4a11-a896-700e6c2962a8")
 	)
 	(wire
 		(pts
@@ -4534,7 +4364,7 @@
 	)
 	(global_label "5V_USB"
 		(shape input)
-		(at 198.12 105.41 180)
+		(at 198.12 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4546,7 +4376,7 @@
 		)
 		(uuid "a814779f-0b87-45ca-a717-6e5e04acb0bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.5831 105.41 0)
+			(at 187.5831 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,81 +7018,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0540")
-		(at 199.39 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e8e6734-6b36-4c5c-a048-4e9c055f2099")
-		(property "Reference" "D13"
-			(at 188.214 98.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819HW-7-F"
-			(at 181.61 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 194.945 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9624f38a-adca-4765-a4da-85e857640fc3")
-		)
-		(pin "1"
-			(uuid "9a96042b-c4c2-419a-babd-02bf5f749107")
-		)
-		(instances
-			(project "panda"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/936199fd-7e49-4734-a2ef-dd7d42ccdc61"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 259.08 99.06 0)
 		(mirror x)
@@ -7601,7 +7356,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 113.03 0)
+		(at 199.39 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7609,7 +7364,7 @@
 		(dnp no)
 		(uuid "a2603ed6-9886-42c2-a90c-7865379383a1")
 		(property "Reference" "#PWR089"
-			(at 199.39 119.38 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 116.84 0)
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 113.03 0)
+			(at 199.39 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 113.03 0)
+			(at 199.39 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +7399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 113.03 0)
+			(at 199.39 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +7871,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 199.39 109.22 0)
+		(at 199.39 105.41 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8125,7 +7880,7 @@
 		(dnp no)
 		(uuid "b9b36968-c8ca-44ce-9b25-afecd91c3d2f")
 		(property "Reference" "R36"
-			(at 205.232 108.204 0)
+			(at 205.232 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +7889,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 205.74 110.744 0)
+			(at 205.74 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +7898,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 199.39 109.22 0)
+			(at 199.39 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +7907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 109.22 0)
+			(at 199.39 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +7916,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 199.39 109.22 0)
+			(at 199.39 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,83 +8330,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0540")
-		(at 199.39 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd5b3a15-0fe3-45b0-bd61-0d5a313f2638")
-		(property "Reference" "D12"
-			(at 191.262 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819HW-7-F"
-			(at 197.612 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 203.835 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 199.39 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 199.39 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca678ae8-0785-4bea-878d-8507cb9533d2")
-		)
-		(pin "1"
-			(uuid "e08d1a04-718f-4a9f-bda0-f39c3227605f")
-		)
-		(instances
-			(project "panda"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-			(project "PowerRegulation"
-				(path "/936199fd-7e49-4734-a2ef-dd7d42ccdc61"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 199.39 85.09 0)
+		(at 199.39 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8659,7 +8339,7 @@
 		(dnp no)
 		(uuid "d191453e-f05a-4c0b-9ea3-80efba671a6a")
 		(property "Reference" "#PWR088"
-			(at 199.39 88.9 0)
+			(at 199.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8348,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 199.39 80.01 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 85.09 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +8365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 85.09 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +8374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 199.39 85.09 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +8722,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1c39710-ad34-411d-9415-fb30958017fc")
+		(uuid "e1c39710-ad34-411d-9415-fb30958017fd")
 		(property "Reference" "#PWR0118"
 			(at 60.96 74.93 0)
 			(effects
@@ -9088,7 +8768,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8441ee4-08e2-4fd9-bcae-28143564e5e3")
+			(uuid "f8441ee4-08e2-4fd9-bcae-28143564e5e4")
 		)
 		(instances
 			(project "panda"

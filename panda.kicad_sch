@@ -1420,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 52.07) (xy 190.5 52.07)
+			(xy 189.23 54.61) (xy 190.5 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 54.61) (xy 190.5 54.61)
+			(xy 189.23 57.15) (xy 190.5 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 41.91) (xy 190.5 41.91)
+			(xy 189.23 44.45) (xy 190.5 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 46.99) (xy 190.5 46.99)
+			(xy 189.23 49.53) (xy 190.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1820,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 44.45) (xy 190.5 44.45)
+			(xy 189.23 46.99) (xy 190.5 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 49.53) (xy 190.5 49.53)
+			(xy 189.23 52.07) (xy 190.5 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2236,7 @@
 	)
 	(global_label "VALVE_1_CTL"
 		(shape input)
-		(at 189.23 41.91 180)
+		(at 189.23 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2246,7 +2246,7 @@
 		)
 		(uuid "1e77f3b2-a7c0-435e-822a-24bf22783958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3915 41.91 0)
+			(at 174.3915 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 	)
 	(global_label "VALVE_4_CTL"
 		(shape input)
-		(at 189.23 49.53 180)
+		(at 189.23 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2554,7 +2554,7 @@
 		)
 		(uuid "565e19f0-5ff8-468d-a37b-83dd403fac5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3915 49.53 0)
+			(at 174.3915 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2566,7 @@
 	)
 	(global_label "VALVE_5_CTL"
 		(shape input)
-		(at 189.23 52.07 180)
+		(at 189.23 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2576,7 +2576,7 @@
 		)
 		(uuid "678d2f34-2cc0-4f21-9006-fdd9acf574a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3915 52.07 0)
+			(at 174.3915 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2610,7 @@
 	)
 	(global_label "VALVE_6_CTL"
 		(shape input)
-		(at 189.23 54.61 180)
+		(at 189.23 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2620,7 +2620,7 @@
 		)
 		(uuid "6cd798f2-e0bc-497e-9430-bc06e0cd1ae7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3915 54.61 0)
+			(at 174.3915 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2720,7 @@
 	)
 	(global_label "VALVE_3_CTL"
 		(shape input)
-		(at 189.23 46.99 180)
+		(at 189.23 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2730,7 +2730,7 @@
 		)
 		(uuid "8440341b-f77e-43ce-881a-60f945a8b250")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3915 46.99 0)
+			(at 174.3915 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3182,7 @@
 	)
 	(global_label "VALVE_2_CTL"
 		(shape input)
-		(at 189.23 44.45 180)
+		(at 189.23 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3192,7 +3192,7 @@
 		)
 		(uuid "eaf23645-2dd8-4c46-8689-8a9368dcc0f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3915 44.45 0)
+			(at 174.3915 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,8 +5282,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 27.94)
-		(size 35.56 5.08)
+		(at 190.5 25.4)
+		(size 35.56 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5298,7 +5298,7 @@
 		)
 		(uuid "4e09186f-4067-4c22-bbd5-0048a728fd95")
 		(property "Sheetname" "Ignitor Control"
-			(at 190.5 27.2284 0)
+			(at 190.5 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5307,7 @@
 			)
 		)
 		(property "Sheetfile" "Ignitor_Control.kicad_sch"
-			(at 190.5 33.6046 0)
+			(at 190.5 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5528,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 39.37)
+		(at 190.5 41.91)
 		(size 16.51 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5544,7 +5544,7 @@
 		)
 		(uuid "5ec173b3-a2a2-49a7-aaa2-51911ea3ebad")
 		(property "Sheetname" "Valve Control"
-			(at 190.5 38.6584 0)
+			(at 190.5 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5553,7 @@
 			)
 		)
 		(property "Sheetfile" "ValveControl.kicad_sch"
-			(at 190.5 57.7346 0)
+			(at 190.5 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5562,7 @@
 			)
 		)
 		(pin "VALVE_1_CTL" input
-			(at 190.5 41.91 180)
+			(at 190.5 44.45 180)
 			(uuid "f10c986f-87b4-403a-aba3-fc413bb8d2a1")
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 			)
 		)
 		(pin "VALVE_2_CTL" input
-			(at 190.5 44.45 180)
+			(at 190.5 46.99 180)
 			(uuid "af15b45b-53c0-4aaa-8af8-db81877df645")
 			(effects
 				(font
@@ -5582,7 +5582,7 @@
 			)
 		)
 		(pin "VALVE_3_CTL" input
-			(at 190.5 46.99 180)
+			(at 190.5 49.53 180)
 			(uuid "09195fbd-a736-45da-8f48-cb4c9fa26337")
 			(effects
 				(font
@@ -5592,7 +5592,7 @@
 			)
 		)
 		(pin "VALVE_4_CTL" input
-			(at 190.5 49.53 180)
+			(at 190.5 52.07 180)
 			(uuid "58666e40-ece5-4aa8-8a4d-f5b45f20e19e")
 			(effects
 				(font
@@ -5602,7 +5602,7 @@
 			)
 		)
 		(pin "VALVE_5_CTL" input
-			(at 190.5 52.07 180)
+			(at 190.5 54.61 180)
 			(uuid "0c5b9549-c507-4c90-8a4b-bf19c2a3c062")
 			(effects
 				(font
@@ -5612,7 +5612,7 @@
 			)
 		)
 		(pin "VALVE_6_CTL" input
-			(at 190.5 54.61 180)
+			(at 190.5 57.15 180)
 			(uuid "c1a458f1-f59e-4e81-b320-013833e0cde3")
 			(effects
 				(font

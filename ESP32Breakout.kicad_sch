@@ -3522,16 +3522,22 @@
 		(uuid "14a92eb3-6ab4-46e5-8626-99d9cc723b59")
 	)
 	(junction
+		(at 175.26 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21588bbb-0ed2-485a-931a-1b2b4ed2f561")
+	)
+	(junction
 		(at 57.15 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2356dde1-3d28-4c37-b1cc-dfdb0395b06b")
 	)
 	(junction
-		(at 175.26 73.66)
+		(at 175.26 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28a09f5c-9836-48ca-9f29-1f83485bf269")
+		(uuid "2971f5fc-3785-40a1-86a3-5eb4df7af3ad")
 	)
 	(junction
 		(at 67.31 45.72)
@@ -3544,12 +3550,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bd5e30e-b9ca-42f5-95b1-c34761ffb712")
-	)
-	(junction
-		(at 175.26 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d048c20-8d33-45ff-a382-cb063cf1cf0c")
 	)
 	(junction
 		(at 181.61 59.69)
@@ -3667,7 +3667,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 68.58)
+			(xy 177.8 66.04) (xy 177.8 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3744,16 +3744,6 @@
 			(type default)
 		)
 		(uuid "194b2123-759e-4271-a040-5a6be5027da0")
-	)
-	(wire
-		(pts
-			(xy 175.26 68.58) (xy 175.26 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23561b05-471a-41b9-a746-0e963c60f0ac")
 	)
 	(wire
 		(pts
@@ -3867,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 68.58) (xy 175.26 68.58)
+			(xy 177.8 67.31) (xy 175.26 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4077,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 177.8 73.66)
+			(xy 177.8 76.2) (xy 177.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4277,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 67.31) (xy 175.26 68.58)
+			(xy 175.26 67.31) (xy 175.26 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 73.66) (xy 175.26 73.66)
+			(xy 177.8 74.93) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4344,16 +4334,6 @@
 			(type default)
 		)
 		(uuid "c4a9195b-af0e-432e-b52b-2206932b59a8")
-	)
-	(wire
-		(pts
-			(xy 175.26 72.39) (xy 175.26 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c624dd6d-c47e-4462-9307-2aa62cab3d22")
 	)
 	(wire
 		(pts
@@ -4497,7 +4477,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 73.66) (xy 175.26 74.93)
+			(xy 175.26 72.39) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
