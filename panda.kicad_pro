@@ -850,16 +850,20 @@
       "ESP32 Breakout"
     ],
     [
-      "5ec173b3-a2a2-49a7-aaa2-51911ea3ebad",
-      "Valve Control"
-    ],
-    [
       "21243b6d-fc9e-4696-b2f4-96a9d8b17f22",
-      "ADC Circuitry"
+      "ADC1"
     ],
     [
-      "9fa93f08-739d-4753-8e9a-eafbcf15bffc",
-      "Power Regulation"
+      "9fd37374-7aca-4a37-87e2-a832abf7a3a9",
+      "ADC2"
+    ],
+    [
+      "214ae1a0-5ad5-4b82-a172-b01ad463a869",
+      "ADC3"
+    ],
+    [
+      "c016aadd-1f34-45c0-adc8-7a6dc7bae923",
+      "ADC4"
     ],
     [
       "51db055d-2275-4f1e-94b0-c8fb03c9970a",
@@ -874,8 +878,12 @@
       "Ignitor Control"
     ],
     [
-      "f1423c59-a220-4b9a-be1b-1c4e29a8b304",
-      "Signal Conditioning"
+      "5ec173b3-a2a2-49a7-aaa2-51911ea3ebad",
+      "Valve Control"
+    ],
+    [
+      "9fa93f08-739d-4753-8e9a-eafbcf15bffc",
+      "Power Regulation"
     ]
   ],
   "text_variables": {}
