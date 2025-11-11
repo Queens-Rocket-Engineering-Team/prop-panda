@@ -2084,12 +2084,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0A -> 5V\nPick 6A as max current for short detection. Ignitors should pull 3-4A.\nVout_min = 5 - 6A * Rsense * Gain\n          = 5 - 6 * 0.025 * 20\n          = 2V\nAt 0A, output should be 5V\n\nI_IGN = (5 - V_out) / (0.025 * 20)"
+	(text "0A -> 5V\nPick 6A as max current for short detection. Ignitors should pull 3-4A.\nVout_min = 5 - 6A * Rsense * Gain\n          = 5 - 6 * 0.025 * 20\n          = 2V\nAt 0A, output should be 5V\n\nI_IGN = (5 - V_out) / (0.025 * 20)\nUPDATE THIS"
 		(exclude_from_sim no)
 		(at 46.736 140.208 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -3260,6 +3262,15 @@
 			)
 		)
 		(property "Description" "-2V to 40V, bidirectional 650 kHz precise current-sense amplifier"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49262296"
 			(at 110.49 110.49 0)
 			(effects
 				(font
