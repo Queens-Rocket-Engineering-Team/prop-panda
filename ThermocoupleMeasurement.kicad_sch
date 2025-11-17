@@ -610,7 +610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b787d5c5-1d55-4c66-a07d-7aa32cf8956d")
-		(property "Reference" "TC2"
+		(property "Reference" "TC3"
 			(at 156.21 83.82 0)
 			(effects
 				(font
@@ -662,7 +662,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/db011d14-1149-4a3d-969c-b91162637961"
-					(reference "TC2")
+					(reference "TC3")
 					(unit 1)
 				)
 			)
@@ -678,7 +678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8493e10-68a3-4932-8895-ac7beb88e5f4")
-		(property "Reference" "TC3"
+		(property "Reference" "TC2"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -730,7 +730,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/db011d14-1149-4a3d-969c-b91162637961"
-					(reference "TC3")
+					(reference "TC2")
 					(unit 1)
 				)
 			)
