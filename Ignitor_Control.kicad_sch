@@ -1476,308 +1476,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:G5Q-1A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "G5Q-1A"
-				(at 8.89 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Relay_THT:Relay_SPST_Omron-G5Q-1A"
-				(at 8.89 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Omron G5Q relay, Miniature Single Pole, SPST-NO, 10A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Miniature Single Pole Relay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay*SPST*Omron*G5Q*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "G5Q-1A_0_0"
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 2.54) (xy 4.445 3.175) (xy 5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "G5Q-1A_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "G5Q-1A_1_1"
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "dk_Transistors-FETs-MOSFETs-Single:BSS138"
 			(pin_names
 				(offset 0)
@@ -2430,6 +2128,19 @@
 		)
 		(uuid "24cd612c-ddd9-4281-ba17-cca2bb73367a")
 	)
+	(text "Ground when switch open to avoid floating trace"
+		(exclude_from_sim no)
+		(at 140.97 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ab971673-4eaf-42bc-8c54-145047347eb5")
+	)
 	(text "ADC uses current source to measure voltage drop across ignitor"
 		(exclude_from_sim no)
 		(at 170.688 81.534 0)
@@ -2444,12 +2155,6 @@
 		(uuid "e8bca9ab-b6cb-451e-87b9-7d55dbd6465f")
 	)
 	(junction
-		(at 157.48 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ed6599f-d45c-4c52-8a8d-c82c0dbee798")
-	)
-	(junction
 		(at 138.43 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2462,7 +2167,7 @@
 		(uuid "43e17ea5-a17f-4190-af6f-81fcf3373239")
 	)
 	(junction
-		(at 168.91 120.65)
+		(at 162.56 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5de76e55-b058-476d-a2b6-0bb2107376e8")
@@ -2492,16 +2197,16 @@
 		(uuid "813465aa-3bf8-494b-b2ec-1fb706565ef5")
 	)
 	(junction
-		(at 166.37 66.04)
+		(at 151.13 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ae6ce52-96f5-4c71-8575-dace9cf18a65")
+	)
+	(junction
+		(at 166.37 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a855f77c-189a-4250-aad0-91ef2bab18e2")
-	)
-	(junction
-		(at 148.59 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c54049fb-aa6b-4c2c-8a24-cba4815a8480")
 	)
 	(junction
 		(at 120.65 57.15)
@@ -2514,16 +2219,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4971934-f256-4621-937b-93227eb06e82")
-	)
-	(wire
-		(pts
-			(xy 154.94 49.53) (xy 154.94 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00d043a6-9075-4472-9804-354295b14551")
 	)
 	(wire
 		(pts
@@ -2557,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 66.04) (xy 176.53 66.04)
+			(xy 173.99 59.69) (xy 176.53 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2577,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 120.65) (xy 171.45 120.65)
+			(xy 162.56 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 123.19) (xy 157.48 124.46)
+			(xy 151.13 116.84) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2647,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 66.04) (xy 166.37 67.31)
+			(xy 166.37 59.69) (xy 166.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2677,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 73.66) (xy 166.37 72.39)
+			(xy 166.37 67.31) (xy 166.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2697,13 +2392,33 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 173.99 104.14)
+			(xy 135.89 31.75) (xy 135.89 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f62a717-1055-49e6-af52-b34896963184")
+		(uuid "4331c495-08a8-4888-85d4-2d1c98a65cac")
+	)
+	(wire
+		(pts
+			(xy 154.94 49.53) (xy 154.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493c3ed1-02c3-4300-ac2c-48cb1bde4683")
+	)
+	(wire
+		(pts
+			(xy 140.97 29.21) (xy 140.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da8742d-f3e0-4897-94e3-278580c47f60")
 	)
 	(wire
 		(pts
@@ -2744,6 +2459,16 @@
 			(type default)
 		)
 		(uuid "588f539b-370b-4c49-8f21-28c00900be4e")
+	)
+	(wire
+		(pts
+			(xy 143.51 30.48) (xy 143.51 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5961e2-f461-4642-8a73-472f30e10dfd")
 	)
 	(wire
 		(pts
@@ -2827,16 +2552,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 33.02) (xy 138.43 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846ab6b4-7d2b-4f55-9763-81f421ed34da")
-	)
-	(wire
-		(pts
 			(xy 144.78 81.28) (xy 143.51 81.28)
 		)
 		(stroke
@@ -2847,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 120.65) (xy 168.91 121.92)
+			(xy 162.56 114.3) (xy 162.56 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 120.65) (xy 179.07 120.65)
+			(xy 170.18 114.3) (xy 172.72 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2897,6 +2612,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 29.21) (xy 140.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af5ea91-339e-4d80-b57b-5463de958bed")
+	)
+	(wire
+		(pts
 			(xy 151.13 86.36) (xy 173.99 86.36)
 		)
 		(stroke
@@ -2904,16 +2629,6 @@
 			(type default)
 		)
 		(uuid "9b001830-d13c-48a9-a702-1b311f4fa0c3")
-	)
-	(wire
-		(pts
-			(xy 138.43 31.75) (xy 148.59 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d203ce1-60bd-468a-8aec-9e0d486b022a")
 	)
 	(wire
 		(pts
@@ -2947,6 +2662,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 104.14) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e100f9-0875-460d-901b-c450f3d97b43")
+	)
+	(wire
+		(pts
 			(xy 119.38 132.08) (xy 119.38 139.7)
 		)
 		(stroke
@@ -2967,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 157.48 113.03)
+			(xy 151.13 104.14) (xy 151.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 168.91 120.65)
+			(xy 158.75 114.3) (xy 162.56 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 66.04) (xy 168.91 66.04)
+			(xy 166.37 59.69) (xy 168.91 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3027,17 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 104.14) (xy 157.48 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de6133b2-4fcc-46b0-a637-f6fc4c5ce0b9")
-	)
-	(wire
-		(pts
-			(xy 168.91 128.27) (xy 168.91 127)
+			(xy 162.56 121.92) (xy 162.56 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 154.94 69.85)
+			(xy 154.94 62.23) (xy 154.94 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 166.37 66.04)
+			(xy 162.56 59.69) (xy 166.37 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3189,6 +2904,28 @@
 			)
 		)
 	)
+	(global_label "+24V_SAFE"
+		(shape input)
+		(at 135.89 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd121d83-b0b5-4a4a-8ed4-1316fab14f37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 18.1815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "IGN_CURRENT_READ"
 		(shape output)
 		(at 106.68 67.31 180)
@@ -3202,7 +2939,7 @@
 	)
 	(hierarchical_label "IGNITOR_PRIME_CTL"
 		(shape input)
-		(at 179.07 120.65 0)
+		(at 172.72 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3213,7 +2950,7 @@
 	)
 	(hierarchical_label "IGNITOR_RUN_CTL"
 		(shape input)
-		(at 176.53 66.04 0)
+		(at 176.53 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3388,83 +3125,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5Q-1A")
-		(at 143.51 40.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06ab63fe-ec00-4830-95a3-19d391edbc27")
-		(property "Reference" "K2"
-			(at 154.94 41.9101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "G5Q-1A"
-			(at 154.94 39.3701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron-G5Q-1A"
-			(at 134.62 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
-			(at 143.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Omron G5Q relay, Miniature Single Pole, SPST-NO, 10A"
-			(at 143.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "914b7c8b-95aa-4e07-ab36-31ccdf846a41")
-		)
-		(pin "2"
-			(uuid "de9f21b9-7fb4-42ce-b324-c39973317914")
-		)
-		(pin "5"
-			(uuid "4ac9cae7-7962-4c08-bb10-ebc2fa02dbd7")
-		)
-		(pin "1"
-			(uuid "34fe093c-8576-45bc-8afb-33502d266fc0")
-		)
-		(instances
-			(project ""
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 138.43 67.31 0)
 		(unit 1)
@@ -3545,7 +3205,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 171.45 66.04 90)
+		(at 171.45 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3553,7 +3213,7 @@
 		(dnp no)
 		(uuid "148bf2b0-dafb-43dd-ab80-8f4d487c8852")
 		(property "Reference" "R76"
-			(at 171.196 60.452 90)
+			(at 171.196 54.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3221,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 171.196 62.992 90)
+			(at 171.196 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3229,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 171.45 66.04 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 66.04 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3247,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 171.45 66.04 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3256,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1000TCE"
-			(at 171.45 66.04 90)
+			(at 171.45 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3265,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 171.45 66.04 90)
+			(at 171.45 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3290,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 73.66 0)
+		(at 166.37 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3638,7 +3298,7 @@
 		(dnp no)
 		(uuid "26430f7e-3e61-4719-b7d8-947441435b31")
 		(property "Reference" "#PWR0168"
-			(at 166.37 80.01 0)
+			(at 166.37 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 77.47 0)
+			(at 166.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 73.66 0)
+			(at 166.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 73.66 0)
+			(at 166.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 73.66 0)
+			(at 166.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3421,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 69.85 0)
+		(at 154.94 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3769,7 +3429,7 @@
 		(dnp no)
 		(uuid "36118180-a4b4-4808-a58a-4460bc7300bc")
 		(property "Reference" "#PWR0166"
-			(at 154.94 76.2 0)
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 73.66 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 69.85 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 69.85 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 69.85 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,6 +3550,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G5Q-1")
+		(at 143.51 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f018a76-f194-4eb4-a7d2-38e2dda7ddc0")
+		(property "Reference" "K4"
+			(at 154.94 41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "G5Q-1"
+			(at 154.94 39.3701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5Q-1"
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g5q.pdf"
+			(at 143.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
+			(at 143.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a1c54c37-c466-4cc2-bffd-7a69adffae66")
+		)
+		(pin "4"
+			(uuid "d546a14e-bca5-4e01-930a-86f48046a547")
+		)
+		(pin "5"
+			(uuid "b0e76af3-af52-4f82-bdba-c444aff0a6f7")
+		)
+		(pin "1"
+			(uuid "1ab0f6c6-c309-4bad-aee5-fe5f36b3860b")
+		)
+		(pin "2"
+			(uuid "c6353633-4dbe-40e1-961f-441327633520")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 139.7 0)
 		(unit 1)
@@ -3956,7 +3697,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 166.37 69.85 0)
+		(at 166.37 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3964,7 +3705,7 @@
 		(dnp no)
 		(uuid "65d7adb0-a6d9-45cc-a491-df3b78326004")
 		(property "Reference" "R74"
-			(at 161.29 69.342 0)
+			(at 161.29 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +3714,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 161.29 71.882 0)
+			(at 161.29 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3723,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 166.37 69.85 0)
+			(at 166.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 69.85 0)
+			(at 166.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +3741,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 166.37 69.85 0)
+			(at 166.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +3750,7 @@
 			)
 		)
 		(property "LCSC" "C25531"
-			(at 166.37 69.85 0)
+			(at 166.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +3759,7 @@
 			)
 		)
 		(property "MPN" "0402WGJ0103TCE"
-			(at 166.37 69.85 0)
+			(at 166.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +3854,7 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-FETs-MOSFETs-Single:BSS138")
-		(at 154.94 63.5 0)
+		(at 154.94 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4122,7 +3863,7 @@
 		(dnp no)
 		(uuid "713b806c-e209-4ad5-8842-a137d4f18903")
 		(property "Reference" "Q4"
-			(at 151.13 64.7701 0)
+			(at 151.384 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4131,7 +3872,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 151.13 62.2301 0)
+			(at 151.892 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4140,7 +3881,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 149.86 58.42 0)
+			(at 149.86 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4150,7 +3891,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 149.86 55.88 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4160,7 +3901,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 154.94 63.5 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +3910,7 @@
 			)
 		)
 		(property "MPN" "BSS138"
-			(at 149.86 50.8 0)
+			(at 149.86 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4179,7 +3920,7 @@
 			)
 		)
 		(property "LCSC" "C8490"
-			(at 154.94 63.5 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +3929,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 149.86 48.26 0)
+			(at 149.86 41.91 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4198,7 +3939,7 @@
 			)
 		)
 		(property "Family" "Transistors - FETs, MOSFETs - Single"
-			(at 149.86 45.72 0)
+			(at 149.86 39.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4208,7 +3949,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 149.86 43.18 0)
+			(at 149.86 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4218,7 +3959,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294"
-			(at 149.86 40.64 0)
+			(at 149.86 34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4228,7 +3969,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 149.86 38.1 0)
+			(at 149.86 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4238,7 +3979,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 149.86 35.56 0)
+			(at 149.86 29.21 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4248,7 +3989,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 149.86 33.02 0)
+			(at 149.86 26.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4366,7 +4107,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 124.46 0)
+		(at 151.13 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4374,7 +4115,7 @@
 		(dnp no)
 		(uuid "7c5853a1-5787-47d6-a224-0b07e8cad84e")
 		(property "Reference" "#PWR0167"
-			(at 157.48 130.81 0)
+			(at 151.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 128.27 0)
+			(at 151.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 124.46 0)
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 124.46 0)
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 124.46 0)
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,8 +4171,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "812970d5-c272-4346-939c-b9ddceba5b34")
+		(property "Reference" "#PWR097"
+			(at 143.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c60d4444-39cc-41b2-a755-4bf582dbcef8")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dk_Transistors-FETs-MOSFETs-Single:BSS138")
-		(at 157.48 118.11 0)
+		(at 151.13 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4440,7 +4247,7 @@
 		(dnp no)
 		(uuid "83d0f6bd-a18f-4f6a-9b4b-15ea7ae086ae")
 		(property "Reference" "Q5"
-			(at 153.67 119.3801 0)
+			(at 147.828 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4449,7 +4256,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 153.67 116.8401 0)
+			(at 148.336 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4458,7 +4265,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 152.4 113.03 0)
+			(at 146.05 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4468,7 +4275,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 152.4 110.49 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4478,7 +4285,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 157.48 118.11 0)
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4294,7 @@
 			)
 		)
 		(property "MPN" "BSS138"
-			(at 152.4 105.41 0)
+			(at 146.05 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4497,7 +4304,7 @@
 			)
 		)
 		(property "LCSC" "C8490"
-			(at 157.48 118.11 0)
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4313,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 152.4 102.87 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4516,7 +4323,7 @@
 			)
 		)
 		(property "Family" "Transistors - FETs, MOSFETs - Single"
-			(at 152.4 100.33 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4526,7 +4333,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 152.4 97.79 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4536,7 +4343,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294"
-			(at 152.4 95.25 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4546,7 +4353,7 @@
 			)
 		)
 		(property "Description_1" "MOSFET N-CH 50V 220MA SOT-23"
-			(at 152.4 92.71 0)
+			(at 146.05 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4556,7 +4363,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 152.4 90.17 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4566,7 +4373,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 152.4 87.63 0)
+			(at 146.05 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4692,7 +4499,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 168.91 124.46 0)
+		(at 162.56 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4700,7 +4507,7 @@
 		(dnp no)
 		(uuid "8bb86d17-3931-43cb-be2b-df7f70515110")
 		(property "Reference" "R75"
-			(at 163.83 123.952 0)
+			(at 157.48 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4516,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 126.492 0)
+			(at 157.48 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4525,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 168.91 124.46 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 124.46 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4543,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 168.91 124.46 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4552,7 @@
 			)
 		)
 		(property "LCSC" "C25531"
-			(at 168.91 124.46 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4561,7 @@
 			)
 		)
 		(property "MPN" "0402WGJ0103TCE"
-			(at 168.91 124.46 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +4909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 128.27 0)
+		(at 162.56 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5110,7 +4917,7 @@
 		(dnp no)
 		(uuid "bd9dd0d3-fcb6-46ec-a222-c9d897d3af25")
 		(property "Reference" "#PWR0169"
-			(at 168.91 134.62 0)
+			(at 162.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +4926,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 132.08 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +4934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 128.27 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +4943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 128.27 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +4952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 128.27 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5132,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 173.99 120.65 90)
+		(at 167.64 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5333,7 +5140,7 @@
 		(dnp no)
 		(uuid "d84c5745-0df6-47c6-9be9-8255a8a0c45c")
 		(property "Reference" "R77"
-			(at 173.736 115.062 90)
+			(at 167.386 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5148,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 173.736 117.602 90)
+			(at 167.386 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5156,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 120.65 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 120.65 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5174,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 173.99 120.65 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5183,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1000TCE"
-			(at 173.99 120.65 90)
+			(at 167.64 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5192,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 173.99 120.65 90)
+			(at 167.64 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
