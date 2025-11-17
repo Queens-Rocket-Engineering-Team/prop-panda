@@ -868,10 +868,6 @@
       "ADC2"
     ],
     [
-      "495281be-b1a3-4954-a9f0-c5459439bb86",
-      "ADC3"
-    ],
-    [
       "4a1cd1f9-a826-4e08-8147-8c929dc65372",
       "ThermocoupleADC1"
     ],
@@ -898,6 +894,10 @@
     [
       "db011d14-1149-4a3d-969c-b91162637961",
       "Thermocouple Measurement"
+    ],
+    [
+      "54d983a6-6da5-442c-8bd0-bcb1e102add1",
+      "IgnitorADC"
     ]
   ],
   "text_variables": {}

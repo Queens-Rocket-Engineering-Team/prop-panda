@@ -816,7 +816,7 @@
 		)
 		(uuid "101559f6-5f21-4ecc-8175-a18a8861e5f0")
 	)
-	(text "ADC3\nADDR: 0b100 0100"
+	(text "ADC3 (IGN)\nADDR: 0b100 0100"
 		(exclude_from_sim no)
 		(at 15.24 80.264 0)
 		(effects
@@ -829,9 +829,9 @@
 		)
 		(uuid "131c57dc-0ea4-4522-8a5c-2f8b302a8fd7")
 	)
-	(text "PGA 16x needed for IGN_RESIST_READ\nReference PGA- to 2.048V internal reference\n~5mOhm intervals"
+	(text "Use PGA with diff=RESIST_READ-CURRENT_READ\n(CSA should read GND when relay open)\n64x Gain"
 		(exclude_from_sim no)
-		(at 14.478 101.6 0)
+		(at 14.732 101.854 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6492,137 +6492,6 @@
 		)
 	)
 	(sheet
-		(at 48.26 86.36)
-		(size 24.13 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "495281be-b1a3-4954-a9f0-c5459439bb86")
-		(property "Sheetname" "ADC3"
-			(at 48.006 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ADCCircuitry.kicad_sch"
-			(at 48.006 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "A0" input
-			(at 62.23 99.06 270)
-			(uuid "49a6d04a-9c17-408d-adef-6d373d0f2b4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A1" input
-			(at 58.42 99.06 270)
-			(uuid "cf46e1de-60e2-4b1f-8e2e-9a790d0349b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DRDY" output
-			(at 72.39 90.17 0)
-			(uuid "f849452f-b743-413e-9a9f-5941f4273e93")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SIG0" input
-			(at 48.26 96.52 180)
-			(uuid "03d1df01-44a6-4f05-9a02-ab4c6e691256")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SIG1" input
-			(at 48.26 93.98 180)
-			(uuid "fff58e01-1eb9-414f-934d-4d5c438d6384")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SIG2" input
-			(at 48.26 91.44 180)
-			(uuid "c938ba12-5d0b-4ec4-b06a-5956832510cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SIG3" input
-			(at 48.26 88.9 180)
-			(uuid "f06d7ce3-90e5-4971-8dd9-f123d7ed3a54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_SCL" output
-			(at 72.39 92.71 0)
-			(uuid "ae10aa86-7463-400e-a1e2-680f33354422")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C_SDA" output
-			(at 72.39 95.25 0)
-			(uuid "aa185698-5754-4612-932b-292fefee9aa2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "panda"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 48.26 115.57)
 		(size 24.13 12.7)
 		(exclude_from_sim no)
@@ -6933,6 +6802,137 @@
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 86.36)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54d983a6-6da5-442c-8bd0-bcb1e102add1")
+		(property "Sheetname" "IgnitorADC"
+			(at 48.26 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IgnitorADC.kicad_sch"
+			(at 48.26 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A0" input
+			(at 62.23 99.06 270)
+			(uuid "200ca977-bab0-40eb-a061-8494291c4a98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A1" input
+			(at 58.42 99.06 270)
+			(uuid "aac6dcf0-c4a2-4dba-89b1-93ff9c8a6cfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRDY" output
+			(at 72.39 90.17 0)
+			(uuid "963bb499-2e97-44e2-8c86-46de305aa26e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 72.39 92.71 0)
+			(uuid "bec34ef6-0bc7-4b99-b966-fda694544199")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" output
+			(at 72.39 95.25 0)
+			(uuid "da283785-88a8-4e54-9015-a1bf97898733")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIG0" input
+			(at 48.26 96.52 180)
+			(uuid "256bc3d1-3db4-40d9-9789-7d449510d500")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIG1" input
+			(at 48.26 93.98 180)
+			(uuid "92e555f3-3e4c-47ca-8e95-c597f6cf667a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIG2" input
+			(at 48.26 91.44 180)
+			(uuid "8c3f8fed-0c1a-40ec-9769-ae0160867843")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIG3" input
+			(at 48.26 88.9 180)
+			(uuid "330db2b7-b2ef-4f0a-b47a-c3c2acee8dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "14")
 				)
 			)
 		)
