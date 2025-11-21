@@ -4368,7 +4368,7 @@
 	)
 	(text "Invert buzzer so 555 sinks current\nBuzzer pulls 30mA, TLC555 can sink 100mA\nTLC555 can only source 10mA"
 		(exclude_from_sim no)
-		(at 237.49 140.208 0)
+		(at 237.744 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4475,6 +4475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3019623a-cd76-45dd-bc1c-a207a7a88425")
+	)
+	(junction
+		(at 191.77 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a2176eb-7e50-4bc3-a683-71490f7cbf38")
 	)
 	(junction
 		(at 165.1 35.56)
@@ -4901,6 +4907,16 @@
 			(type default)
 		)
 		(uuid "1a9b2db5-d9e2-47b0-8773-4a5c9620ec45")
+	)
+	(wire
+		(pts
+			(xy 49.53 91.44) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3e78a0-7e41-454b-9171-5f543a3da25e")
 	)
 	(wire
 		(pts
@@ -5354,6 +5370,26 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 121.92) (xy 190.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52af0aa4-7f80-4785-a453-88c4f26f6df9")
+	)
+	(wire
+		(pts
+			(xy 191.77 120.65) (xy 191.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538525dd-d043-4d5f-9202-38855a25b566")
+	)
+	(wire
+		(pts
 			(xy 191.77 144.78) (xy 191.77 146.05)
 		)
 		(stroke
@@ -5431,16 +5467,6 @@
 			(type default)
 		)
 		(uuid "590c15b6-cb64-49cc-8f2e-122b05e00b5e")
-	)
-	(wire
-		(pts
-			(xy 191.77 121.92) (xy 191.77 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "595f9790-02fc-4feb-a9b5-3a1df9d7e792")
 	)
 	(wire
 		(pts
@@ -5624,6 +5650,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af3fb65-1338-480e-b60d-68bfdbfe77bd")
+	)
+	(wire
+		(pts
 			(xy 62.23 99.06) (xy 62.23 97.79)
 		)
 		(stroke
@@ -5741,6 +5777,16 @@
 			(type default)
 		)
 		(uuid "8c02eff0-5583-499a-afe1-e5f85d6f6028")
+	)
+	(wire
+		(pts
+			(xy 180.34 121.92) (xy 185.42 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4ac5eb-ca3d-4107-9583-f4cba124eb5d")
 	)
 	(wire
 		(pts
@@ -6011,6 +6057,16 @@
 			(type default)
 		)
 		(uuid "bc23c820-6625-4f34-92d5-bb8eb9cacd73")
+	)
+	(wire
+		(pts
+			(xy 191.77 121.92) (xy 191.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc528fb6-5874-40f0-b354-edf8696a5534")
 	)
 	(wire
 		(pts
@@ -6344,7 +6400,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 139.7) (xy 212.09 139.7)
+			(xy 205.74 139.7) (xy 213.36 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6493,7 +6549,7 @@
 		(uuid "158dfb4a-e979-41cb-bb9f-135dc1e0d550")
 	)
 	(label "TR"
-		(at 212.09 139.7 0)
+		(at 213.36 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6503,7 +6559,7 @@
 		(uuid "1cd0bad7-b4c4-4484-b78b-39a784f6b5c2")
 	)
 	(label "+5.3V"
-		(at 191.77 121.92 0)
+		(at 191.77 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6859,6 +6915,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 265.43 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01700c0d-ae7b-4079-9d8a-377211b85458")
+		(property "Reference" "C62"
+			(at 271.78 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 273.05 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "221dc640-436b-4703-a5a9-bc252cc7eddc")
+		)
+		(pin "1"
+			(uuid "b9fb1729-ccf4-4af3-9a09-8260f1e56eb5")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 260.35 95.25 0)
 		(mirror x)
@@ -7070,6 +7213,93 @@
 			(project "PowerRegulation"
 				(path "/936199fd-7e49-4734-a2ef-dd7d42ccdc61"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 46.99 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f85be2a-5227-4ba8-8d47-7402abb9722d")
+		(property "Reference" "C33"
+			(at 48.514 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 49.022 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc098b54-51ff-48bc-86cd-8fa22df36c96")
+		)
+		(pin "1"
+			(uuid "a1a287ca-53cd-4ff8-89d7-5d694dd3cb4d")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -8620,111 +8850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 265.43 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4297e3ad-41aa-48f3-8eac-c8d5ee1ccb1a")
-		(property "Reference" "C11"
-			(at 272.542 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 273.558 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 265.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 265.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 265.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R or X7R"
-			(at 265.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CL31A106KBHNNNE"
-			(at 265.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C13585"
-			(at 265.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf29f01b-e272-4827-bfcb-a18820f87538")
-		)
-		(pin "1"
-			(uuid "ba2849f1-74b3-497f-9aea-3323726410e8")
-		)
-		(instances
-			(project "panda"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 187.96 49.53 0)
 		(unit 1)
@@ -9931,6 +10056,93 @@
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 187.96 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2b1a99-bc76-4adc-8180-15afc69de615")
+		(property "Reference" "C61"
+			(at 186.944 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 188.468 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8e8187c-d44f-4dcb-b6f5-8eb70316fce7")
+		)
+		(pin "1"
+			(uuid "2be087a0-0532-4176-8730-ad92e5cd18ad")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -12861,6 +13073,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 180.34 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8ef6d0b-1635-4952-99f8-aa2ede07103b")
+		(property "Reference" "#PWR0108"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ccbcadb-3c05-4370-bf21-e03d70dbd013")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 50.8 41.91 0)
 		(mirror x)
@@ -14947,6 +15224,71 @@
 			(project "PowerRegulation"
 				(path "/936199fd-7e49-4734-a2ef-dd7d42ccdc61"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fed82c00-e06c-44b1-9ea6-c3cb6508f738")
+		(property "Reference" "#PWR0103"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7571a2bf-50f2-43a0-b60d-c1c7d5e28b50")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
