@@ -829,7 +829,7 @@
 		)
 		(uuid "131c57dc-0ea4-4522-8a5c-2f8b302a8fd7")
 	)
-	(text "Use PGA with diff=RESIST_READ-CURRENT_READ\n(CSA should read GND when relay open)\n64x Gain"
+	(text "Use PGA with diff=RESIST_READ-CURRENT_READ\n(CSA should read GND when relay open)\n64x Gain (Check IgnitorADC for more detail)"
 		(exclude_from_sim no)
 		(at 14.732 101.854 0)
 		(effects

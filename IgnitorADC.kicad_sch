@@ -1214,6 +1214,17 @@
 		)
 		(uuid 9a3b940c-15b1-463a-bbd5-15a2173f62ed)
 	)
+	(text "To measure ign resist read, set ADC current source to 1mA\nthen, 0Ω ign is (47Ω+0Ω)*1mA=47mV\nand 10Ω ign is (47Ω+10Ω)*1mA=57mV\nUse PGA with + as ign_resist_read and - as ign_current_read\nsince ign current read is always 0V when\nign resist read is active (view ignitor control),\nthis will give a differential of ign_resist_read-0V=ign_resist_read\nso if PGA set to 64x, 0Ω->3.008V and 10Ω->3.648V\nGeneral formula is (47+R)*0.001A*64=Vadc\nor R=(Vadc/0.064)-47\nMax measurement is ~31Ω"
+		(exclude_from_sim no)
+		(at 72.644 71.374 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "10ff62c5-31cd-4441-8867-8964c95f63d8")
+	)
 	(text "ADC"
 		(exclude_from_sim no)
 		(at 105.918 109.22 0)
@@ -1226,7 +1237,7 @@
 	)
 	(text "decreased resistance on SIG3 due to\nlow resistance of ignitor\n(using current source, 1k is far\nbigger than expected ign resistance)"
 		(exclude_from_sim no)
-		(at 66.548 60.706 0)
+		(at 65.786 49.784 0)
 		(effects
 			(font
 				(size 1.016 1.016)

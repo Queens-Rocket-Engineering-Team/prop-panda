@@ -2115,6 +2115,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "While ign prime switch is on resist read,\nign current read will always read 0v"
+		(exclude_from_sim no)
+		(at 59.182 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "053161fd-39ad-4850-8ea6-1db13417186b")
+	)
 	(text "0A -> 5V\nPick 6A as max current for short detection. Ignitors should pull 3-4A.\nVout_max = REF + 6A * Rsense * Gain\n          = 0 + 6 * 0.025 * 20\n          = 3V\nAt 0A, output should be 0V\n\nI_IGN = V_out / (0.025 * 20)"
 		(exclude_from_sim no)
 		(at 45.974 101.6 0)
