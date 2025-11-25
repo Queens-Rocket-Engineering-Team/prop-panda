@@ -2117,7 +2117,7 @@
 	)
 	(text "While ign prime switch is on resist read,\nign current read will always read 0v"
 		(exclude_from_sim no)
-		(at 59.182 71.374 0)
+		(at 67.564 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,6 +2140,16 @@
 			(justify left)
 		)
 		(uuid "24cd612c-ddd9-4281-ba17-cca2bb73367a")
+	)
+	(text "update this screw terminal"
+		(exclude_from_sim no)
+		(at 152.908 153.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "962f2511-3799-4a93-956c-e4f519850f0c")
 	)
 	(text "Ground when switch open to avoid floating trace"
 		(exclude_from_sim no)
@@ -2365,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 129.54) (xy 123.19 144.78)
+			(xy 123.19 130.81) (xy 123.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 121.92) (xy 123.19 119.38)
+			(xy 123.19 123.19) (xy 123.19 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 125.73) (xy 139.7 128.27)
+			(xy 139.7 125.73) (xy 139.7 127)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 135.89) (xy 139.7 137.16)
+			(xy 139.7 134.62) (xy 139.7 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +2985,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 139.7 132.08 90)
+		(at 139.7 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2983,8 +2993,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011cc361-e9c0-4d87-aa80-96d8be627845")
-		(property "Reference" "D29"
-			(at 143.51 132.3974 90)
+		(property "Reference" "D25"
+			(at 143.51 131.1274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +3003,7 @@
 			)
 		)
 		(property "Value" "LED-G"
-			(at 143.51 134.9374 90)
+			(at 143.51 133.6674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3012,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 139.7 132.08 0)
+			(at 139.7 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 132.08 0)
+			(at 139.7 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3030,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 139.7 132.08 0)
+			(at 139.7 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3039,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 132.08 0)
+			(at 139.7 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3048,70 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 139.7 132.08 90)
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 139.7 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3128,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "D29")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -3071,7 +3144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c24009-f446-45a9-b5d6-bf6018323539")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0160"
 			(at 124.46 73.66 0)
 			(effects
 				(font
@@ -3121,7 +3194,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR0161")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "078dfe37-2665-4464-bf10-c680f394ed11")
-		(property "Reference" "R72"
+		(property "Reference" "R77"
 			(at 144.78 81.2799 0)
 			(effects
 				(font
@@ -3191,6 +3264,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "848364f6-98cb-4994-910f-4938db3214c3")
 		)
@@ -3200,7 +3336,7 @@
 		(instances
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "R72")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -3215,7 +3351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "148bf2b0-dafb-43dd-ab80-8f4d487c8852")
-		(property "Reference" "R76"
+		(property "Reference" "R81"
 			(at 175.006 69.342 90)
 			(effects
 				(font
@@ -3276,6 +3412,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 175.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 175.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 175.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 175.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 175.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 175.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 175.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abdaa2ee-3f6a-4eb6-8220-92ec4c777241")
 		)
@@ -3285,7 +3484,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "R76")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -3358,7 +3557,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 137.16 0)
+		(at 139.7 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3366,8 +3565,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab129eb-a5ad-4a67-9f09-885b0a59637c")
-		(property "Reference" "#PWR0165"
-			(at 139.7 143.51 0)
+		(property "Reference" "#PWR0163"
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 142.24 0)
+			(at 139.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 137.16 0)
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 137.16 0)
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 137.16 0)
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3615,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR0165")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47da9370-80f0-407b-a179-e87f95082d71")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0161"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -3546,7 +3745,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR0162")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -3562,7 +3761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f018a76-f194-4eb4-a7d2-38e2dda7ddc0")
-		(property "Reference" "K4"
+		(property "Reference" "K2"
 			(at 158.75 57.1501 0)
 			(effects
 				(font
@@ -3571,7 +3770,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "G5Q-1"
+		(property "Value" "G5Q-1 DC24"
 			(at 158.75 54.6101 0)
 			(effects
 				(font
@@ -3609,6 +3808,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a1c54c37-c466-4cc2-bffd-7a69adffae66")
 		)
@@ -3627,7 +3889,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "K4")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "552241a0-fa5e-496c-897d-7f2040bb17fb")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0159"
 			(at 123.19 161.29 0)
 			(effects
 				(font
@@ -3692,7 +3954,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR0164")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65d7adb0-a6d9-45cc-a491-df3b78326004")
-		(property "Reference" "R74"
+		(property "Reference" "R79"
 			(at 165.1 78.232 0)
 			(effects
 				(font
@@ -3770,6 +4032,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "577ee6d3-6550-4da6-8e64-b99ab9f4cc49")
 		)
@@ -3779,7 +4104,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "R74")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -3787,7 +4112,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 123.19 125.73 0)
+		(at 123.19 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3795,8 +4120,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6949691a-9257-4e9e-a662-80d50c180862")
-		(property "Reference" "F1"
-			(at 125.73 124.4599 0)
+		(property "Reference" "F2"
+			(at 125.73 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +4130,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 125.73 126.9999 0)
+			(at 125.73 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +4139,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
-			(at 121.412 125.73 90)
+			(at 121.412 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +4148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 125.73 0)
+			(at 123.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +4157,70 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 123.19 125.73 0)
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 123.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +4237,7 @@
 		(instances
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "F1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -3865,7 +4253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "713b806c-e209-4ad5-8842-a137d4f18903")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 155.194 73.66 0)
 			(effects
 				(font
@@ -4001,6 +4389,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e64df1f3-8812-49c4-aee8-63b771f86368")
 		)
@@ -4013,7 +4464,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -4081,6 +4532,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d498edec-c149-444d-89ce-f2b01938c746")
 		)
@@ -4117,7 +4631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c5853a1-5787-47d6-a224-0b07e8cad84e")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0165"
 			(at 154.94 139.7 0)
 			(effects
 				(font
@@ -4167,7 +4681,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR0167")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -4183,7 +4697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "812970d5-c272-4346-939c-b9ddceba5b34")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0164"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -4233,7 +4747,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR097")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -4249,7 +4763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83d0f6bd-a18f-4f6a-9b4b-15ea7ae086ae")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 151.638 128.27 0)
 			(effects
 				(font
@@ -4385,6 +4899,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "af641b74-2140-43d9-9f2d-1f7e9df02d45")
 		)
@@ -4397,7 +4974,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4413,7 +4990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a75a74-a97a-4f41-af8a-5a68bd30645e")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 130.81 144.7799 0)
 			(effects
 				(font
@@ -4485,6 +5062,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35e7fe6c-0ade-4635-87d2-c581b36e5c54")
 		)
@@ -4494,7 +5134,7 @@
 		(instances
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4509,7 +5149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bb86d17-3931-43cb-be2b-df7f70515110")
-		(property "Reference" "R75"
+		(property "Reference" "R78"
 			(at 161.29 132.842 0)
 			(effects
 				(font
@@ -4572,6 +5212,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 166.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "46209f0b-2e91-45d7-93a1-ddc8e8b400bc")
 		)
@@ -4581,7 +5284,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "R75")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -4597,7 +5300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cfdc323-476f-43a8-888e-1680c8ba8ea6")
-		(property "Reference" "D30"
+		(property "Reference" "D26"
 			(at 177.8 54.3559 90)
 			(effects
 				(font
@@ -4660,6 +5363,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6b7b469-2806-4058-af37-7a943ad55bf5")
 		)
@@ -4669,7 +5435,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "D30")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4685,7 +5451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ead69ab-917c-4a98-ad0e-cfecb799606d")
-		(property "Reference" "D31"
+		(property "Reference" "D27"
 			(at 180.34 108.9659 90)
 			(effects
 				(font
@@ -4748,6 +5514,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad5ad1c8-08ed-4ff5-a591-fb94e28ef3f3")
 		)
@@ -4757,7 +5586,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "D31")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -4773,7 +5602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91e594de-94f9-4466-b236-736a2fc5cfdc")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0162"
 			(at 133.35 80.01 0)
 			(effects
 				(font
@@ -4823,7 +5652,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR0163")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -4848,7 +5677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "G5Q-1"
+		(property "Value" "G5Q-1 DC24"
 			(at 161.29 109.2201 0)
 			(effects
 				(font
@@ -4878,6 +5707,69 @@
 			)
 		)
 		(property "Description" "Omron G5G relay, Miniature Single Pole, SPDT, 10A"
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
 			(at 149.86 110.49 0)
 			(effects
 				(font
@@ -4919,7 +5811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd9dd0d3-fcb6-46ec-a222-c9d897d3af25")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0167"
 			(at 166.37 143.51 0)
 			(effects
 				(font
@@ -4969,7 +5861,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "#PWR0169")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -4986,7 +5878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0af4eeb-20ca-4979-ae5a-ab42a9fe1006")
-		(property "Reference" "C51"
+		(property "Reference" "C61"
 			(at 129.5337 66.04 90)
 			(effects
 				(font
@@ -5038,8 +5930,71 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 129.54 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 129.54 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 129.54 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 129.54 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 129.54 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 129.54 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 129.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +6011,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "C51")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5073,7 +6028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9831f46-ea3b-4cf9-a715-c387e6f0ca4f")
-		(property "Reference" "R73"
+		(property "Reference" "R76"
 			(at 137.16 121.9199 0)
 			(effects
 				(font
@@ -5118,6 +6073,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c6066ed-5713-494e-97db-75b1c3132f19")
 		)
@@ -5127,7 +6145,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "R73")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -5142,7 +6160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d84c5745-0df6-47c6-9be9-8255a8a0c45c")
-		(property "Reference" "R77"
+		(property "Reference" "R80"
 			(at 171.196 123.952 90)
 			(effects
 				(font
@@ -5203,6 +6221,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 171.45 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 171.45 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 171.45 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 171.45 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 171.45 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 171.45 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 171.45 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aef21889-3bb8-4037-a758-663136a8446f")
 		)
@@ -5212,7 +6293,7 @@
 		(instances
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/4e09186f-4067-4c22-bbd5-0048a728fd95"
-					(reference "R77")
+					(reference "R80")
 					(unit 1)
 				)
 			)

@@ -2618,7 +2618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efb8de4-381a-4a1a-9a74-61513b757eca")
-		(property "Reference" "D32"
+		(property "Reference" "D28"
 			(at 68.326 44.45 0)
 			(effects
 				(font
@@ -2679,6 +2679,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cf2b92d-e8fd-43ff-92d4-3bac73d523a2")
 		)
@@ -2688,7 +2751,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "D32")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14cab75e-1685-4668-9014-0ea9d616ecae")
-		(property "Reference" "D34"
+		(property "Reference" "D30"
 			(at 144.526 44.45 0)
 			(effects
 				(font
@@ -2765,6 +2828,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39027b43-8f5b-4e30-87b1-8f3156b6305d")
 		)
@@ -2774,7 +2900,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "D34")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "176091d9-0789-4aea-b3bd-0177419ce8d1")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0173"
 			(at 76.2 71.12 0)
 			(effects
 				(font
@@ -2839,7 +2965,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0174")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21383efe-3a6c-48cf-955c-63c548ee0825")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0180"
 			(at 137.16 119.38 0)
 			(effects
 				(font
@@ -2904,7 +3030,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0181")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -2920,7 +3046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ac3973-56c5-4384-94c2-c0ed6360c9c0")
-		(property "Reference" "R81"
+		(property "Reference" "R85"
 			(at 63.5 109.2199 0)
 			(effects
 				(font
@@ -2938,7 +3064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 110.49 0)
 			(effects
 				(font
@@ -2983,6 +3109,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3613e0d-445d-4694-8339-3a9134809b41")
 		)
@@ -2992,7 +3181,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R81")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -3008,7 +3197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2de81fb9-f648-4ec3-a25b-abc710d9fe91")
-		(property "Reference" "R86"
+		(property "Reference" "R90"
 			(at 205.74 53.34 90)
 			(effects
 				(font
@@ -3069,6 +3258,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "691a7da0-76b7-4e9d-b5c0-ee65cce4d91e")
 		)
@@ -3078,7 +3330,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R86")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -3094,7 +3346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6819a6-0b7a-435d-8dbe-01cd2ec357bb")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0171"
 			(at 60.96 100.33 0)
 			(effects
 				(font
@@ -3144,7 +3396,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0172")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -3159,7 +3411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "314d2e3d-7ca0-4315-aeff-41dea6d5e4cd")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0187"
 			(at 227.33 71.12 0)
 			(effects
 				(font
@@ -3209,7 +3461,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0188")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -3225,7 +3477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "337d390e-7d98-4af8-9ec0-f4fe435d4dc0")
-		(property "Reference" "R78"
+		(property "Reference" "R82"
 			(at 54.61 53.34 90)
 			(effects
 				(font
@@ -3286,6 +3538,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 54.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 54.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 54.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 54.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 54.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 54.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 54.61 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77c4b980-b4dd-41d3-a61d-39340ba7fa98")
 		)
@@ -3295,7 +3610,7 @@
 		(instances
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R78")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -3310,7 +3625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38035f30-5517-4003-b65d-59cb2bed68e7")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0172"
 			(at 60.96 119.38 0)
 			(effects
 				(font
@@ -3360,7 +3675,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0173")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -3509,6 +3824,69 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3686,6 +4064,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "97921505-2172-40cb-b520-5cc64490ecd9")
 		)
@@ -3714,7 +4155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "400d2321-870e-4657-91b2-77cded6ea2de")
-		(property "Reference" "R85"
+		(property "Reference" "R89"
 			(at 139.7 109.2199 0)
 			(effects
 				(font
@@ -3732,7 +4173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -3777,6 +4218,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17257b84-19c0-4d99-835a-6e26b0d13d38")
 		)
@@ -3786,7 +4290,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R85")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -3948,6 +4452,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6375c200-2efa-40d9-adda-68c38a472976")
 		)
@@ -3976,7 +4543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5706e78d-33b2-48c8-9acf-5e6f8121346e")
-		(property "Reference" "R87"
+		(property "Reference" "R91"
 			(at 205.74 101.6 90)
 			(effects
 				(font
@@ -4037,6 +4604,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 205.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 205.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 205.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 205.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 205.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 205.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 205.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a00849d-e569-47a0-a39c-5d856a7300ea")
 		)
@@ -4046,7 +4676,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R87")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5faa81ff-38f3-4541-b814-5ee16beb1603")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 54.61 152.3999 0)
 			(effects
 				(font
@@ -4125,6 +4755,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eaae3295-2818-4b62-bcd8-0ed837cd6bc1")
 		)
@@ -4134,7 +4827,7 @@
 		(instances
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4150,7 +4843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60fada72-a93b-4a12-b76c-4aff38e726ed")
-		(property "Reference" "J19"
+		(property "Reference" "J18"
 			(at 135.89 152.3999 0)
 			(effects
 				(font
@@ -4213,6 +4906,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79b557e9-37de-4681-94f4-18c311936f14")
 		)
@@ -4222,7 +4978,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J19")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c12b2d0-863b-474c-9835-dd1706d09cfd")
-		(property "Reference" "R84"
+		(property "Reference" "R88"
 			(at 139.7 60.9599 0)
 			(effects
 				(font
@@ -4256,7 +5012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -4301,6 +5057,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40c04197-94c3-4bcb-af90-e59e4228945d")
 		)
@@ -4310,7 +5129,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R84")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -4326,7 +5145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70276f7e-3c22-439c-9e03-41f753a5d704")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0185"
 			(at 212.09 100.33 0)
 			(effects
 				(font
@@ -4376,7 +5195,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0186")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -4528,6 +5347,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1ba77919-1895-4b53-a4dd-732a8f44bdf0")
 		)
@@ -4555,7 +5437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bd8b956-1fbf-438d-bb4e-9efc0382b2e9")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0182"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -4605,7 +5487,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0183")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -4621,7 +5503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "839d2ab6-6662-446f-aa02-5ee69345b7d3")
-		(property "Reference" "D35"
+		(property "Reference" "D31"
 			(at 144.526 92.71 0)
 			(effects
 				(font
@@ -4682,6 +5564,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86c54f52-615e-4f8b-80cf-83aaffb1509b")
 		)
@@ -4691,7 +5636,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "D35")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -4707,7 +5652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84c631c2-a0a2-4575-8906-663ba48e5a6b")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0179"
 			(at 137.16 100.33 0)
 			(effects
 				(font
@@ -4757,7 +5702,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0180")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -4773,7 +5718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "855561e7-9263-4b56-ad54-1b086d5ece51")
-		(property "Reference" "R88"
+		(property "Reference" "R92"
 			(at 214.63 60.9599 0)
 			(effects
 				(font
@@ -4791,7 +5736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 212.09 62.23 0)
 			(effects
 				(font
@@ -4836,6 +5781,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48d8d687-ecba-4f4c-9bf6-fa4814fb1539")
 		)
@@ -4845,7 +5853,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R88")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -4861,7 +5869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866cd828-4d18-46d7-95d1-cefe925ae6d4")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0169"
 			(at 36.83 168.91 0)
 			(effects
 				(font
@@ -4911,7 +5919,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0170")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -4927,7 +5935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ea1a798-d496-40a5-8405-b45319e9ecd9")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0177"
 			(at 119.38 168.91 0)
 			(effects
 				(font
@@ -4977,7 +5985,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0178")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -5129,6 +6137,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5e1627f8-99ad-478b-a70d-f997da8af363")
 		)
@@ -5156,7 +6227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f2ac059-26c1-41dc-bedd-ece7946cafb2")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0186"
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -5206,7 +6277,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0187")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -5222,7 +6293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff86ffc-cd79-4277-8351-e04902d50c14")
-		(property "Reference" "R89"
+		(property "Reference" "R93"
 			(at 214.63 109.2199 0)
 			(effects
 				(font
@@ -5240,7 +6311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -5285,6 +6356,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9945bf52-a046-487d-9583-fc47ee7b00c9")
 		)
@@ -5294,7 +6428,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R89")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -5310,7 +6444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9010d7eb-94d9-46fb-985d-975f52094430")
-		(property "Reference" "D33"
+		(property "Reference" "D29"
 			(at 68.326 92.71 0)
 			(effects
 				(font
@@ -5371,6 +6505,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "482ece8b-c2fd-45ce-9f6b-07fd16dd52c4")
 		)
@@ -5380,7 +6577,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "D33")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -5396,7 +6593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927a3794-7ef3-4773-ba3c-f31aec2a02aa")
-		(property "Reference" "J20"
+		(property "Reference" "J19"
 			(at 137.16 168.9099 0)
 			(effects
 				(font
@@ -5459,6 +6656,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 133.35 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "299f8342-1abc-41f1-915b-43cc2fe9b375")
 		)
@@ -5468,7 +6728,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J20")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -5620,6 +6880,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7621c9ad-3d8e-4ed0-b611-bfa63c1563b9")
 		)
@@ -5648,7 +6971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "959f5015-af34-47dc-9dd8-c296c5ac97f1")
-		(property "Reference" "J18"
+		(property "Reference" "J17"
 			(at 95.25 168.9099 0)
 			(effects
 				(font
@@ -5711,6 +7034,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16c3bbcb-6b2c-45d9-b400-005e0bc0d7fd")
 		)
@@ -5720,7 +7106,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J18")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5736,7 +7122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "989a9483-7eb3-455a-9662-6a1d8226c814")
-		(property "Reference" "J16"
+		(property "Reference" "J15"
 			(at 54.61 168.9099 0)
 			(effects
 				(font
@@ -5799,6 +7185,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f201c5ff-091a-45c1-8d96-124f3559b727")
 		)
@@ -5808,7 +7257,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J16")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -5823,7 +7272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e1401a7-5ec9-46fb-a9b3-769f9baec2a3")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0170"
 			(at 60.96 71.12 0)
 			(effects
 				(font
@@ -5873,7 +7322,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0171")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -5888,7 +7337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0edc38f-70ff-4189-9cd4-84bf764cf7ca")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0188"
 			(at 227.33 119.38 0)
 			(effects
 				(font
@@ -5938,7 +7387,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0189")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -5953,7 +7402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac0546d9-8de7-4569-a10f-c421a402fbf1")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0181"
 			(at 152.4 71.12 0)
 			(effects
 				(font
@@ -6003,7 +7452,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0182")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -6019,7 +7468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19cc855-4b7d-4e5e-8c50-9179da7c82e3")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0176"
 			(at 119.38 152.4 0)
 			(effects
 				(font
@@ -6069,7 +7518,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0177")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -6085,7 +7534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baee6d09-c55d-48bf-b69a-005c63dd77f1")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0183"
 			(at 212.09 52.07 0)
 			(effects
 				(font
@@ -6135,7 +7584,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0184")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -6151,7 +7600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a92a2b-24a3-4c86-a93b-aed47ff9777d")
-		(property "Reference" "R79"
+		(property "Reference" "R83"
 			(at 54.61 101.6 90)
 			(effects
 				(font
@@ -6212,6 +7661,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b924afaf-4595-4f75-aa25-469ee06a6c99")
 		)
@@ -6221,7 +7733,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R79")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -6237,7 +7749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c215c69a-89ab-4a47-aea1-4e428c350c85")
-		(property "Reference" "J17"
+		(property "Reference" "J16"
 			(at 95.25 152.3999 0)
 			(effects
 				(font
@@ -6300,6 +7812,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0147c4e-ec05-4ffa-88dc-29df2c03a94c")
 		)
@@ -6309,7 +7884,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J17")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -6324,7 +7899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c31deaf9-a622-4973-9071-0d43d8406048")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0184"
 			(at 212.09 71.12 0)
 			(effects
 				(font
@@ -6374,7 +7949,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0185")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -6390,7 +7965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ddf8ca-a742-4c56-bcef-07e24c74e4b4")
-		(property "Reference" "R83"
+		(property "Reference" "R87"
 			(at 130.81 101.6 90)
 			(effects
 				(font
@@ -6451,6 +8026,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 130.81 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d436b3f-83c4-4cd9-b8c6-5473a7cd2fe0")
 		)
@@ -6460,7 +8098,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R83")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -6476,7 +8114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2ebb0b4-fc16-488e-83ed-7ee67ca4c1c6")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0175"
 			(at 77.47 168.91 0)
 			(effects
 				(font
@@ -6526,7 +8164,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0176")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -6542,7 +8180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3954797-4c6f-4909-8236-2276984a952a")
-		(property "Reference" "R80"
+		(property "Reference" "R84"
 			(at 63.5 60.9599 0)
 			(effects
 				(font
@@ -6560,7 +8198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -6605,6 +8243,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0594d4b-83d3-4d1b-8925-3696a9146682")
 		)
@@ -6614,7 +8315,7 @@
 		(instances
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R80")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -6629,7 +8330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0d4543a-439d-4441-9b18-8224bcb2ea7b")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0178"
 			(at 137.16 71.12 0)
 			(effects
 				(font
@@ -6679,7 +8380,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0179")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -6695,7 +8396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb450b77-cea0-4b9b-82b0-d4ecb34f29bf")
-		(property "Reference" "D37"
+		(property "Reference" "D33"
 			(at 219.456 92.71 0)
 			(effects
 				(font
@@ -6756,6 +8457,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c49ea53-91dc-4052-a8ee-28f6f6dc7d78")
 		)
@@ -6765,7 +8529,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "D37")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -6780,7 +8544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbaedd8f-4fe7-4dd7-93a3-450234308766")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0174"
 			(at 76.2 119.38 0)
 			(effects
 				(font
@@ -6830,7 +8594,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0175")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -6846,7 +8610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc516f62-2519-4eb4-aab8-cf8c4568d71d")
-		(property "Reference" "R82"
+		(property "Reference" "R86"
 			(at 130.81 53.34 90)
 			(effects
 				(font
@@ -6907,6 +8671,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 130.81 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 130.81 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 130.81 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 130.81 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 130.81 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 130.81 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 130.81 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d652d04-a39f-4b99-872a-762b96feff6a")
 		)
@@ -6916,7 +8743,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "R82")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -6932,7 +8759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd94283-0ab3-4157-8e72-60c7c37c37ac")
-		(property "Reference" "D36"
+		(property "Reference" "D32"
 			(at 219.456 44.45 0)
 			(effects
 				(font
@@ -6993,6 +8820,69 @@
 				(hide yes)
 			)
 		)
+		(property "ADC Number" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ade1794-0637-4c0e-b48b-c5880b9e13f4")
 		)
@@ -7002,7 +8892,7 @@
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "D36")
+					(reference "D32")
 					(unit 1)
 				)
 			)

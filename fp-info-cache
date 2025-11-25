@@ -1,4 +1,4 @@
-26797138876162987
+26798902957612801
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70601,6 +70601,13 @@ ESP32_Devkit_C1_Noah
 0
 44
 44
+Library
+YS-SBZ9650DYB05
+
+
+0
+2
+2
 Library
 ZXMP3A17E6TA
 SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
