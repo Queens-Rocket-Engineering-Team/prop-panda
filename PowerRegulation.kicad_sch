@@ -2933,7 +2933,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Timer:TLC555xD"
+		(symbol "Timer:TLC555xPS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2946,7 +2946,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TLC555xD"
+			(property "Value" "TLC555xPS"
 				(at 2.54 8.89 0)
 				(effects
 					(font
@@ -2955,8 +2955,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 21.59 -10.16 0)
+			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+				(at 16.51 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2973,7 +2973,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single LinCMOS Timer, 555 compatible, SOIC-8"
+			(property "Description" "Single LinCMOS Timer, 555 compatible, VSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2991,7 +2991,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "*VSSOP*3x3mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3000,7 +3000,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLC555xD_0_0"
+			(symbol "TLC555xPS_0_0"
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -3038,7 +3038,7 @@
 					)
 				)
 			)
-			(symbol "TLC555xD_0_1"
+			(symbol "TLC555xPS_0_1"
 				(rectangle
 					(start -8.89 -7.62)
 					(end 8.89 7.62)
@@ -3062,7 +3062,7 @@
 					)
 				)
 			)
-			(symbol "TLC555xD_1_1"
+			(symbol "TLC555xPS_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 3.81)
@@ -4798,12 +4798,6 @@
 		(uuid "54d475c5-aece-461e-a150-d4df6bf8ac84")
 	)
 	(junction
-		(at 256.54 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "553bb1eb-f430-4919-a36a-2693fa930f53")
-	)
-	(junction
 		(at 171.45 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4942,7 +4936,7 @@
 		(uuid "b3044b63-745b-4b81-8bbb-222887a82b3d")
 	)
 	(junction
-		(at 265.43 38.1)
+		(at 261.62 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6d7b5c4-934c-4e43-ae2c-386a12fc6f13")
@@ -4989,6 +4983,10 @@
 		(color 0 0 0 0)
 		(uuid "fdfdb525-5606-44e7-b999-ac52dae38f5b")
 	)
+	(no_connect
+		(at 252.73 45.72)
+		(uuid "6d7a016a-bba7-4699-9435-c45e0833421a")
+	)
 	(wire
 		(pts
 			(xy 34.29 43.18) (xy 34.29 41.91)
@@ -4998,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "00e136f3-2a1c-48d2-8f9b-ef61aecbd24a")
+	)
+	(wire
+		(pts
+			(xy 254 38.1) (xy 261.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011f6c28-5a53-4403-bedd-e662315f970a")
 	)
 	(wire
 		(pts
@@ -5051,13 +5059,23 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 38.1) (xy 265.43 39.37)
+			(xy 261.62 38.1) (xy 261.62 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0abbeb19-a299-422b-a01d-9c228ba5632f")
+	)
+	(wire
+		(pts
+			(xy 252.73 38.1) (xy 254 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf277f2-8ade-41d2-97f1-555455a75929")
 	)
 	(wire
 		(pts
@@ -5068,16 +5086,6 @@
 			(type default)
 		)
 		(uuid "0c37642e-a4ef-477b-a44d-79818f4bc950")
-	)
-	(wire
-		(pts
-			(xy 256.54 44.45) (xy 256.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c91c2ea-5256-4f3c-af4f-9827e17e4c6e")
 	)
 	(wire
 		(pts
@@ -5238,16 +5246,6 @@
 			(type default)
 		)
 		(uuid "1f46389d-3f4c-463a-a841-11da6c96eaa3")
-	)
-	(wire
-		(pts
-			(xy 254 38.1) (xy 252.73 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f73529e-ea1b-4ae6-a82a-69e58c44b2ca")
 	)
 	(wire
 		(pts
@@ -5521,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 44.45) (xy 265.43 45.72)
+			(xy 261.62 44.45) (xy 261.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5811,16 +5809,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 38.1) (xy 265.43 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d546169-f6ec-4288-9d36-92a762a5e672")
-	)
-	(wire
-		(pts
 			(xy 143.51 46.99) (xy 143.51 52.07)
 		)
 		(stroke
@@ -6001,7 +5989,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 38.1) (xy 266.7 38.1)
+			(xy 261.62 38.1) (xy 262.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6651,16 +6639,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 38.1) (xy 256.54 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d1d5bd-27e2-43e5-8e77-928e1ebd028e")
-	)
-	(wire
-		(pts
 			(xy 171.45 44.45) (xy 171.45 45.72)
 		)
 		(stroke
@@ -6901,16 +6879,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 38.1) (xy 256.54 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed53bf55-ad52-4aaa-a469-977f2e1296e1")
-	)
-	(wire
-		(pts
 			(xy 204.47 142.24) (xy 212.09 142.24)
 		)
 		(stroke
@@ -6978,16 +6946,6 @@
 			(type default)
 		)
 		(uuid "fbb873c0-4e64-48e4-b4e2-5eb3d6d09942")
-	)
-	(wire
-		(pts
-			(xy 256.54 45.72) (xy 252.73 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdd9e4b-a197-4bab-961e-62467cc43e2c")
 	)
 	(wire
 		(pts
@@ -7079,16 +7037,6 @@
 		)
 		(uuid "2028bd1d-4593-44d8-9adf-a0cbcc13b65e")
 	)
-	(label "VCC"
-		(at 149.86 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "443efcbb-2241-4c33-b6d6-90db7e3d77ac")
-	)
 	(label "PWR_SQ"
 		(at 31.75 99.06 0)
 		(effects
@@ -7100,7 +7048,7 @@
 		(uuid "5057a97e-483f-4736-83e1-118ebeabc45a")
 	)
 	(label "PWR_SQ"
-		(at 266.7 38.1 0)
+		(at 262.89 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8616,6 +8564,71 @@
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 149.86 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "166ec92b-ebf2-4c57-aeaa-a066207daedc")
+		(property "Reference" "#PWR0202"
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 150.876 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62cf8df5-0e8e-4589-9c4e-21e8038e952b")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -11222,165 +11235,6 @@
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Timer:TLC555xD")
-		(at 190.5 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "422b72bc-a5eb-4267-a3ca-f2e837fc51ee")
-		(property "Reference" "U4"
-			(at 191.77 125.476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TLC555xD"
-			(at 191.77 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 212.09 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf"
-			(at 212.09 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single LinCMOS Timer, 555 compatible, SOIC-8"
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6987"
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c0ed42c-714a-430a-ad9b-4aeb5bcaf170")
-		)
-		(pin "8"
-			(uuid "70943069-3d27-4993-a96e-91fb628dbba7")
-		)
-		(pin "7"
-			(uuid "5de31b96-a67e-4acf-95f2-0ca98c091339")
-		)
-		(pin "2"
-			(uuid "9e52498e-f33d-46b3-a257-dd9342f27c66")
-		)
-		(pin "5"
-			(uuid "d15cd2b4-f494-48fa-be1d-b7a459db4b99")
-		)
-		(pin "4"
-			(uuid "0197d34a-021d-4cea-bc57-1b224add0907")
-		)
-		(pin "3"
-			(uuid "a74f9fa6-cbd4-416e-af54-8a996b3eba3f")
-		)
-		(pin "6"
-			(uuid "a4cb03c1-1f08-4081-8365-4c9d6e7564a7")
-		)
-		(instances
-			(project ""
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14216,7 +14070,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 265.43 41.91 180)
+		(at 261.62 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14224,7 +14078,7 @@
 		(dnp no)
 		(uuid "7b2fb72e-fa1a-4147-88cb-fb305c417ad9")
 		(property "Reference" "C21"
-			(at 271.272 41.148 0)
+			(at 267.462 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,7 +14087,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 273.304 42.926 0)
+			(at 269.494 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +14096,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 265.43 41.91 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14251,7 +14105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 41.91 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14260,7 +14114,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 265.43 41.91 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14269,7 +14123,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 265.43 41.91 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,7 +14132,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 265.43 41.91 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14141,7 @@
 			)
 		)
 		(property "ADC Number" ""
-			(at 265.43 41.91 90)
+			(at 261.62 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,7 +14150,7 @@
 			)
 		)
 		(property "DCR" ""
-			(at 265.43 41.91 90)
+			(at 261.62 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,7 +14159,7 @@
 			)
 		)
 		(property "I2C Address" ""
-			(at 265.43 41.91 90)
+			(at 261.62 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +14168,7 @@
 			)
 		)
 		(property "Irated" ""
-			(at 265.43 41.91 90)
+			(at 261.62 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +14177,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 265.43 41.91 90)
+			(at 261.62 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +14186,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 265.43 41.91 90)
+			(at 261.62 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,7 +14195,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 265.43 41.91 90)
+			(at 261.62 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,7 +15321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 45.72 0)
+		(at 261.62 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15475,7 +15329,7 @@
 		(dnp no)
 		(uuid "91adaf6f-9cc8-49cb-9b4d-d64c1e4edf83")
 		(property "Reference" "#PWR061"
-			(at 265.43 52.07 0)
+			(at 261.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15484,7 +15338,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 49.53 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15492,7 +15346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 45.72 0)
+			(at 261.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,7 +15355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 45.72 0)
+			(at 261.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15510,7 +15364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 45.72 0)
+			(at 261.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15859,139 +15713,6 @@
 			(project "PowerRegulation"
 				(path "/936199fd-7e49-4734-a2ef-dd7d42ccdc61"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 256.54 41.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3352d3e-6855-46d9-ae77-350dfa333dee")
-		(property "Reference" "R28"
-			(at 262.382 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 262.89 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 256.54 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d666ca72-7eda-4d15-a0f9-0fde3eb0ed96")
-		)
-		(pin "1"
-			(uuid "c9435272-aa93-46ea-9a90-cf1e5ad97f08")
-		)
-		(instances
-			(project "panda"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17107,6 +16828,94 @@
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timer:TLC555xPS")
+		(at 190.5 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b588cea4-4eca-4a79-8954-09223a384b70")
+		(property "Reference" "U14"
+			(at 192.6433 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLC555xPS"
+			(at 192.6433 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 207.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf"
+			(at 212.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single LinCMOS Timer, 555 compatible, VSSOP-8"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8ea207f8-0f91-48df-a9ed-823074012b48")
+		)
+		(pin "1"
+			(uuid "07002bfb-b2a6-4efc-a887-46a4a2cba8fe")
+		)
+		(pin "5"
+			(uuid "e66be071-0e61-4a49-a824-a4da15cc3d97")
+		)
+		(pin "6"
+			(uuid "7aecfb2e-ff82-4b98-bdf2-4990d1a18097")
+		)
+		(pin "8"
+			(uuid "69d7398c-8452-493c-85e3-c79090b2009b")
+		)
+		(pin "3"
+			(uuid "3be9758a-894e-4ced-b846-fe2c0674a51e")
+		)
+		(pin "2"
+			(uuid "651363db-c5fb-49bf-bde0-e59fd85a77c2")
+		)
+		(pin "7"
+			(uuid "3dbd6a19-0e0d-4efa-b6fe-9ad8b36f54d8")
+		)
+		(instances
+			(project ""
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "U14")
 					(unit 1)
 				)
 			)
