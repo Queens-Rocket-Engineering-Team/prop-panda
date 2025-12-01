@@ -1379,16 +1379,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 171.45) (xy 128.27 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0448eefa-2136-4838-b585-3f1c55f5c1f0")
-	)
-	(wire
-		(pts
 			(xy 152.4 110.49) (xy 152.4 113.03)
 		)
 		(stroke
@@ -1406,6 +1396,16 @@
 			(type default)
 		)
 		(uuid "07a06862-2d54-4c81-a4ca-b3ec42e661ba")
+	)
+	(wire
+		(pts
+			(xy 50.8 151.13) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef99868-1867-465d-88e7-d11ddaf9f81d")
 	)
 	(wire
 		(pts
@@ -1429,6 +1429,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 167.64) (xy 128.27 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d26a48d-ffc9-46e7-b517-7e55c6a773cd")
+	)
+	(wire
+		(pts
 			(xy 227.33 110.49) (xy 227.33 113.03)
 		)
 		(stroke
@@ -1449,26 +1459,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 168.91) (xy 119.38 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c5a74f-5f0d-4cc4-9e02-4c039dd56204")
-	)
-	(wire
-		(pts
-			(xy 45.72 168.91) (xy 36.83 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30953825-ecde-46bf-80d1-b16372ee3bd4")
-	)
-	(wire
-		(pts
 			(xy 76.2 62.23) (xy 76.2 64.77)
 		)
 		(stroke
@@ -1486,6 +1476,26 @@
 			(type default)
 		)
 		(uuid "33e8e8ed-0705-4f50-b4d8-7564891b8796")
+	)
+	(wire
+		(pts
+			(xy 50.8 167.64) (xy 50.8 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a20e3b-06d2-4310-b767-b1cce9279e8d")
+	)
+	(wire
+		(pts
+			(xy 115.57 154.94) (xy 128.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fe0723-8a45-41b3-9b95-dfa71509c19b")
 	)
 	(wire
 		(pts
@@ -1529,36 +1539,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 152.4) (xy 119.38 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4278d23e-6795-401b-a8fb-4a9a5830c62c")
-	)
-	(wire
-		(pts
-			(xy 73.66 171.45) (xy 86.36 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b68446-345b-4b40-b0e2-42c8dc90d7f6")
-	)
-	(wire
-		(pts
-			(xy 119.38 165.1) (xy 119.38 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "492ba677-66f4-4723-b214-ab75cfd42bd5")
-	)
-	(wire
-		(pts
 			(xy 212.09 59.69) (xy 219.71 59.69)
 		)
 		(stroke
@@ -1569,6 +1549,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 172.72) (xy 50.8 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f701925-e851-481b-9459-e53c8f3f1468")
+	)
+	(wire
+		(pts
 			(xy 76.2 50.8) (xy 76.2 52.07)
 		)
 		(stroke
@@ -1576,16 +1566,6 @@
 			(type default)
 		)
 		(uuid "51351dd5-e901-4327-8e38-6d77d457411e")
-	)
-	(wire
-		(pts
-			(xy 77.47 148.59) (xy 77.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "515ee37a-0aeb-48b8-8980-e3312243e473")
 	)
 	(wire
 		(pts
@@ -1629,6 +1609,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 151.13) (xy 88.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9ef449-733a-4036-8dd7-535b17a96a20")
+	)
+	(wire
+		(pts
 			(xy 66.04 50.8) (xy 60.96 50.8)
 		)
 		(stroke
@@ -1646,16 +1636,6 @@
 			(type default)
 		)
 		(uuid "6165c113-0159-4a45-9168-26efa5cccb08")
-	)
-	(wire
-		(pts
-			(xy 86.36 168.91) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6535bfa7-7037-4a4b-9d58-64e29966de14")
 	)
 	(wire
 		(pts
@@ -1709,16 +1689,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 152.4) (xy 77.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796614a4-eded-47de-afc5-02652ea933fd")
-	)
-	(wire
-		(pts
 			(xy 147.32 50.8) (xy 152.4 50.8)
 		)
 		(stroke
@@ -1749,16 +1719,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 165.1) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c183b55-87d7-4be5-99a2-35003e9f3bc9")
-	)
-	(wire
-		(pts
 			(xy 142.24 99.06) (xy 137.16 99.06)
 		)
 		(stroke
@@ -1776,16 +1736,6 @@
 			(type default)
 		)
 		(uuid "8cff98f1-3e46-4df5-8904-caef1301a382")
-	)
-	(wire
-		(pts
-			(xy 36.83 165.1) (xy 36.83 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee431d0-43e8-4e20-b6dc-7acced0f327c")
 	)
 	(wire
 		(pts
@@ -1839,23 +1789,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 154.94) (xy 86.36 154.94)
+			(xy 88.9 167.64) (xy 88.9 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1534213-897c-457d-a71b-80fd0f5cf661")
+		(uuid "9e7f2006-4fb9-4a2e-b359-f19d4315f0f7")
 	)
 	(wire
 		(pts
-			(xy 119.38 148.59) (xy 119.38 152.4)
+			(xy 76.2 172.72) (xy 88.9 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1af44c3-5346-4d05-a39a-ee412f9214a4")
+		(uuid "a55f56e1-0a1a-4792-9512-ee9913e7e7bc")
+	)
+	(wire
+		(pts
+			(xy 38.1 154.94) (xy 50.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75c1798-0155-43c0-81a3-2e0edbbdf125")
 	)
 	(wire
 		(pts
@@ -1869,13 +1829,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 154.94) (xy 128.27 154.94)
+			(xy 128.27 149.86) (xy 128.27 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b080b9c8-4422-4885-9b78-06bf81810f7c")
+		(uuid "b3a970ee-f86b-4208-b54a-7812479caaf1")
 	)
 	(wire
 		(pts
@@ -1889,6 +1849,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 154.94) (xy 88.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cab92e-128b-46b0-b531-0805df2d2546")
+	)
+	(wire
+		(pts
 			(xy 208.28 107.95) (xy 212.09 107.95)
 		)
 		(stroke
@@ -1896,16 +1866,6 @@
 			(type default)
 		)
 		(uuid "c5b7cb72-7549-4989-ba5d-c0c0d9e471c0")
-	)
-	(wire
-		(pts
-			(xy 33.02 154.94) (xy 45.72 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7875107-a518-498f-a617-dd6bd27786e9")
 	)
 	(wire
 		(pts
@@ -1999,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 172.72) (xy 128.27 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e838eec1-1870-4d0a-ba92-7eb783d996c9")
+	)
+	(wire
+		(pts
 			(xy 137.16 59.69) (xy 144.78 59.69)
 		)
 		(stroke
@@ -2006,16 +1976,6 @@
 			(type default)
 		)
 		(uuid "e95224b8-facf-492c-8001-de2fa6e1c741")
-	)
-	(wire
-		(pts
-			(xy 45.72 152.4) (xy 36.83 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eafd0f69-42bc-4193-80da-c03377653b79")
 	)
 	(wire
 		(pts
@@ -2029,16 +1989,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 171.45) (xy 45.72 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2fc3c9d-85c8-4f90-9470-b70ee091c3e5")
-	)
-	(wire
-		(pts
 			(xy 152.4 50.8) (xy 152.4 52.07)
 		)
 		(stroke
@@ -2046,16 +1996,6 @@
 			(type default)
 		)
 		(uuid "f4f244d3-288d-4123-9ec6-b7d53848d48e")
-	)
-	(wire
-		(pts
-			(xy 36.83 148.59) (xy 36.83 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb213534-91f3-41ff-a5d1-177dd79fcd8b")
 	)
 	(label "VALVE_6_RET"
 		(at 227.33 95.25 0)
@@ -2067,15 +2007,15 @@
 		)
 		(uuid "01881316-7750-4e25-a7ec-868723472855")
 	)
-	(label "VALVE_3_RET"
-		(at 115.57 154.94 0)
+	(label "VALVE_6_RET"
+		(at 115.57 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1253b058-e1d9-47a3-813d-dcaa20544404")
+		(uuid "14ab6b21-c684-4535-828f-ab22a7e0bd13")
 	)
 	(label "VALVE_2_RET"
 		(at 152.4 46.99 0)
@@ -2087,25 +2027,15 @@
 		)
 		(uuid "20a9c9d8-d63e-49f7-abd6-a43b1acc3976")
 	)
-	(label "VALVE_2_RET"
-		(at 73.66 154.94 0)
+	(label "VALVE_3_RET"
+		(at 115.57 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2d080e81-87b6-442b-ae77-445e6fad3201")
-	)
-	(label "VALVE_5_RET"
-		(at 73.66 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d1a5f01-c09d-4bca-b8a1-42ad294b93a4")
+		(uuid "33948ca7-f9f2-45d5-a769-adce63301cfd")
 	)
 	(label "VALVE_4_RET"
 		(at 76.2 95.25 0)
@@ -2117,15 +2047,35 @@
 		)
 		(uuid "5b63b84b-fce3-4753-a731-e82eec947ee6")
 	)
-	(label "VALVE_1_RET"
-		(at 33.02 154.94 0)
+	(label "VALVE_2_RET"
+		(at 76.2 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6cf2af71-a0f7-47ce-bf2b-c955598c0941")
+		(uuid "6c98eb37-8eab-4d2a-a8a8-06d64baa8329")
+	)
+	(label "VALVE_1_RET"
+		(at 38.1 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "804971e1-2fe4-4f47-b9d2-f959f1ef61ff")
+	)
+	(label "VALVE_5_RET"
+		(at 76.2 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82833d77-583e-4012-8519-634be30249ce")
 	)
 	(label "VALVE_5_RET"
 		(at 152.4 95.25 0)
@@ -2138,14 +2088,14 @@
 		(uuid "9354ebeb-0582-4621-a6ed-14e02742873a")
 	)
 	(label "VALVE_4_RET"
-		(at 33.02 171.45 0)
+		(at 38.1 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c91d8a50-ae34-44bc-a16e-80a923abc800")
+		(uuid "bff7efb5-b7ba-4b06-a879-e9dd237132ee")
 	)
 	(label "VALVE_3_RET"
 		(at 227.33 46.99 0)
@@ -2156,16 +2106,6 @@
 			(justify left bottom)
 		)
 		(uuid "e513dc08-c45b-45be-a007-4b0def565b4f")
-	)
-	(label "VALVE_6_RET"
-		(at 115.57 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eed2e54a-d61f-4454-8f9c-6a055644bc52")
 	)
 	(label "VALVE_1_RET"
 		(at 76.2 46.99 0)
@@ -2201,7 +2141,7 @@
 	)
 	(global_label "+24V_SAFE"
 		(shape input)
-		(at 77.47 148.59 90)
+		(at 50.8 151.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2209,9 +2149,31 @@
 			)
 			(justify left)
 		)
-		(uuid "acdc0774-7fb4-4670-aa60-a3f4abeb4d9a")
+		(uuid "770b5e81-a697-435c-924c-5e8371f3df11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 135.0215 90)
+			(at 50.8 137.5615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+24V_SAFE"
+		(shape input)
+		(at 88.9 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c18ee7b-6217-4eec-b86f-9d4bc7b80777")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 137.5615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,28 +2196,6 @@
 		(uuid "c20bbb86-c2e0-4cbe-bfaa-b9ac26192ba7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.16 34.6915 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+24V_SAFE"
-		(shape input)
-		(at 36.83 148.59 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d109de1a-a573-4f19-9ac2-09f4d1897cd7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 135.0215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,6 +2544,76 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 133.35 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00de2d5e-6da9-483a-acb0-294d0e468f49")
+		(property "Reference" "J18"
+			(at 135.89 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 135.89 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 133.35 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "460cdd04-002c-4fa9-a9db-cc8c9ef102ad")
+		)
+		(pin "1"
+			(uuid "5f0ba42e-b15e-48b8-8623-065530625a60")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
+					(reference "J18")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2966,6 +2976,73 @@
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
 					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 50.8 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cec6b57-6e23-47c9-88ea-241c3e7de434")
+		(property "Reference" "#PWR0169"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 53.34 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e33d681-5621-4698-8f95-2ea6a524e28e")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -4684,16 +4761,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 50.8 152.4 0)
+		(at 55.88 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5faa81ff-38f3-4541-b814-5ee16beb1603")
-		(property "Reference" "J14"
-			(at 54.61 152.3999 0)
+		(uuid "5774d022-0060-48f8-a9fb-f031533c364e")
+		(property "Reference" "J16"
+			(at 58.42 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,8 +4778,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Valve_1_PWR"
-			(at 54.61 154.9399 0)
+		(property "Value" "Conn_01x02"
+			(at 58.42 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,8 +4787,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 50.8 152.4 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 55.88 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 152.4 0)
+			(at 55.88 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,256 +4806,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 152.4 0)
+			(at 55.88 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "XH-2A"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20079"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eaae3295-2818-4b62-bcd8-0ed837cd6bc1")
 		)
 		(pin "2"
-			(uuid "f4fbcbee-a7d5-4de1-8e79-8c6e2ab5b18e")
-		)
-		(instances
-			(project ""
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 133.35 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60fada72-a93b-4a12-b76c-4aff38e726ed")
-		(property "Reference" "J18"
-			(at 135.89 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Valve_3_PWR"
-			(at 135.89 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XH-2A"
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20079"
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 133.35 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "b6ecbde2-c1bf-4ce8-b426-e844c84741a8")
 		)
 		(pin "1"
-			(uuid "79b557e9-37de-4681-94f4-18c311936f14")
-		)
-		(pin "2"
-			(uuid "3cace64c-f33f-4bef-8e95-6644ee878ac5")
+			(uuid "cb9f0637-f069-4dc0-891e-e7890be25965")
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J18")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -5860,138 +5705,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 36.83 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "866cd828-4d18-46d7-95d1-cefe925ae6d4")
-		(property "Reference" "#PWR0169"
-			(at 36.83 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 36.83 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 36.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d3c7464-f008-4ba7-8309-a6603bafa15c")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 119.38 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ea1a798-d496-40a5-8405-b45319e9ecd9")
-		(property "Reference" "#PWR0177"
-			(at 119.38 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 119.38 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 119.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac921704-b466-4b63-9145-c1fd4868c12f")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "dk_Transistors-FETs-MOSFETs-Single:BSS138")
 		(at 76.2 105.41 0)
 		(unit 1)
@@ -6585,16 +6298,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 133.35 168.91 0)
+		(at 93.98 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "927a3794-7ef3-4773-ba3c-f31aec2a02aa")
-		(property "Reference" "J19"
-			(at 137.16 168.9099 0)
+		(uuid "91d2a07e-e2cb-4502-adcc-c82d1ad13e19")
+		(property "Reference" "J14"
+			(at 96.52 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,8 +6315,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Valve_6_PWR"
-			(at 137.16 171.4499 0)
+		(property "Value" "Conn_01x02"
+			(at 96.52 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,8 +6324,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 133.35 168.91 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 93.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 168.91 0)
+			(at 93.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,105 +6343,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 168.91 0)
+			(at 93.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "XH-2A"
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20079"
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 133.35 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "299f8342-1abc-41f1-915b-43cc2fe9b375")
 		)
 		(pin "2"
-			(uuid "69a9d430-7d33-4f8b-a1b5-dd2cd8c1d455")
+			(uuid "20e157e1-b22d-426f-9562-5b01de10f9de")
+		)
+		(pin "1"
+			(uuid "9929011e-f8c0-4fa6-9e44-cf66981da218")
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J19")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -6962,308 +6594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 91.44 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "959f5015-af34-47dc-9dd8-c296c5ac97f1")
-		(property "Reference" "J17"
-			(at 95.25 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Valve_5_PWR"
-			(at 95.25 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XH-2A"
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20079"
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 91.44 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16c3bbcb-6b2c-45d9-b400-005e0bc0d7fd")
-		)
-		(pin "2"
-			(uuid "c6a3a3e4-d66b-455a-9d3f-bc5430f0aca6")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 50.8 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "989a9483-7eb3-455a-9662-6a1d8226c814")
-		(property "Reference" "J15"
-			(at 54.61 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Valve_4_PWR"
-			(at 54.61 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XH-2A"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20079"
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 50.8 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f201c5ff-091a-45c1-8d96-124f3559b727")
-		)
-		(pin "2"
-			(uuid "197d804c-8cb5-4ae1-9491-1efad748d2be")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 64.77 0)
 		(unit 1)
@@ -7459,17 +6789,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 119.38 148.59 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 133.35 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b19cc855-4b7d-4e5e-8c50-9179da7c82e3")
-		(property "Reference" "#PWR0176"
-			(at 119.38 152.4 0)
+		(uuid "ad2f6b20-6bc6-4975-b7ff-a1fab47942ac")
+		(property "Reference" "J15"
+			(at 135.89 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 135.89 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 133.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,16 +6825,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 119.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 148.59 0)
+		(property "Datasheet" "~"
+			(at 133.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,8 +6834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 119.38 148.59 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,22 +6843,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 119.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "0c4331c7-0b38-4f67-a7ac-a923f17c25d8")
 		)
 		(pin "1"
-			(uuid "a8e7de8e-7c3c-4a04-b5b9-8a9ef31d1d88")
+			(uuid "920ba8f2-2488-4b0b-95cb-31677c98b005")
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "#PWR0176")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -7740,157 +7074,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 91.44 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c215c69a-89ab-4a47-aea1-4e428c350c85")
-		(property "Reference" "J16"
-			(at 95.25 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Valve_2_PWR"
-			(at 95.25 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XH-2A"
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20079"
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADC Number" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DCR" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I2C Address" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Irated" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Isat" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" ""
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0147c4e-ec05-4ffa-88dc-29df2c03a94c")
-		)
-		(pin "2"
-			(uuid "6d10264b-0aae-468c-8bcd-c73f97092b29")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 212.09 64.77 0)
 		(unit 1)
@@ -8105,17 +7288,87 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 77.47 165.1 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2ebb0b4-fc16-488e-83ed-7ee67ca4c1c6")
+		(uuid "c7ca8474-0295-4814-ae95-c2ca743635fd")
+		(property "Reference" "J17"
+			(at 96.52 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 96.52 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a30a748e-8df1-4f0e-892e-ba3bf51518df")
+		)
+		(pin "1"
+			(uuid "07ae3d35-4f65-4883-86a0-2faa6ffedaf9")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 88.9 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f94080-c39e-468b-b2e4-6984812ede57")
 		(property "Reference" "#PWR0175"
-			(at 77.47 168.91 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,15 +7377,16 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 77.47 160.02 0)
+			(at 91.44 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 165.1 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +7395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 165.1 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +7404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 77.47 165.1 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,10 +7413,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7daf673d-e9ca-4f62-9769-07ad7124c674")
+			(uuid "3506c57d-c7b2-4640-b91e-a3ffc03c72cd")
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
 					(reference "#PWR0175")
 					(unit 1)
@@ -8322,6 +7576,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 55.88 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d41d7dd7-bb43-40ce-9239-eed13241187e")
+		(property "Reference" "J10"
+			(at 58.42 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 58.42 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 55.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e993c4e3-01db-4658-b35d-1a22e5985717")
+		)
+		(pin "1"
+			(uuid "335de6ad-c015-4a5d-825f-689e89309053")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 128.27 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d60560c1-c02e-4baf-b6de-2f4df88a7b5d")
+		(property "Reference" "#PWR021"
+			(at 128.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 130.81 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30945716-01b6-4ff5-af06-4acb9731c8b5")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 64.77 0)
 		(unit 1)
@@ -8381,6 +7772,73 @@
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
 					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 128.27 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efbdb74c-fd3d-4b17-aaac-80e54e354543")
+		(property "Reference" "#PWR0176"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 130.81 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91fd717b-89c5-43cb-8f01-8663633eb2b7")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/5ec173b3-a2a2-49a7-aaa2-51911ea3ebad"
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
