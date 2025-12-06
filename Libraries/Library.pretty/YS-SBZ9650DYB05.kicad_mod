@@ -1,0 +1,116 @@
+(footprint "YS-SBZ9650DYB05"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.5 11.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7aa522b1-09dc-41c5-9fc9-9ee071bec814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "YS-SBZ9650DYB05"
+		(at 5.5 12.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32793a32-1754-4299-b6f2-c24b4366c468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9959d7d1-3625-472f-895a-6641ef6c566e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49943206-4834-4eac-9289-cf2d036c6a04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 7.6)
+		(end 2 9.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a04568e9-a2a7-461c-b07a-9a313bc3874d")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 9.6 9.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "932a2071-79c2-4c7a-993f-99b683780bd4")
+	)
+	(fp_rect
+		(start -0.3 -0.6)
+		(end 9.9 10.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a8afb58a-c33c-4490-af19-5e6ad4f80d21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.5 14.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "202f5468-52b9-4dfb-8670-faa2a312a520")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 4.8 0.7)
+		(size 2.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e3ac4e1c-acad-41a8-8cde-f8502d535416")
+	)
+	(pad "2" smd roundrect
+		(at 4.8 8.9)
+		(size 2.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ade6e48a-0799-48cb-8b41-d83cfcab392c")
+	)
+	(embedded_fonts no)
+)
