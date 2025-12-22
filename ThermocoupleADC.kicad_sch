@@ -1240,16 +1240,6 @@
 		)
 		(uuid "b866735c-6740-4b1a-a961-6fef2f335f23")
 	)
-	(text "pick Rb once thermocouples are chosen"
-		(exclude_from_sim no)
-		(at 119.634 105.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ce7ce631-c135-49ad-ad79-2c1e89c9f227")
-	)
 	(text "Signal Conditioning/Biasing"
 		(exclude_from_sim no)
 		(at 113.538 28.194 0)
