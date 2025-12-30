@@ -5,7 +5,9 @@
 	(uuid "257586dd-10cc-46d5-bce3-f26db50519be")
 	(paper "A4")
 	(title_block
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols

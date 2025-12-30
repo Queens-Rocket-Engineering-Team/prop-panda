@@ -5,8 +5,9 @@
 	(uuid "5ac165bd-af4b-4db0-809f-e84f9c8de860")
 	(paper "A4")
 	(title_block
-		(title "Pressure Transducer Measurement")
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols
@@ -1405,51 +1406,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 173.99 99.06) (xy 214.63 99.06) (xy 214.63 130.81) (xy 173.99 130.81)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 008b553b-ab1d-4b8d-ab73-cbc995ba9653)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 130.81 99.06) (xy 171.45 99.06) (xy 171.45 130.81) (xy 130.81 130.81)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 1c27cc51-7df9-45b8-b83a-1dfeae75805f)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 130.81 62.23) (xy 171.45 62.23) (xy 171.45 93.98) (xy 130.81 93.98)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6ea751e6-f086-452b-94de-c66a3a98a1ed)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 87.63 62.23) (xy 128.27 62.23) (xy 128.27 93.98) (xy 87.63 93.98)
 			)
 			(stroke
@@ -1459,22 +1415,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 78164702-3381-4656-82d5-7989be12983d)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 87.63 99.06) (xy 128.27 99.06) (xy 128.27 130.81) (xy 87.63 130.81)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 92b33270-85e8-4f3f-b076-51a2190b2949)
+			(uuid 1ae85355-2186-4bf8-9ff5-1b2498223357)
 		)
 	)
 	(rule_area
@@ -1489,7 +1430,67 @@
 			(fill
 				(type none)
 			)
-			(uuid f774a67b-2314-4fce-a0bf-b75d47b66831)
+			(uuid 1d4b5a12-3a1c-47e3-9766-e6123522249a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 87.63 99.06) (xy 128.27 99.06) (xy 128.27 130.81) (xy 87.63 130.81)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 6b494d96-ad61-469a-95d4-8c33533106d4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 173.99 99.06) (xy 214.63 99.06) (xy 214.63 130.81) (xy 173.99 130.81)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid cd3aa658-f91f-4e54-82bf-988cd45cb0b5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 130.81 99.06) (xy 171.45 99.06) (xy 171.45 130.81) (xy 130.81 130.81)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d689b5dd-c987-4537-a09e-2d45a37c9384)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 130.81 62.23) (xy 171.45 62.23) (xy 171.45 93.98) (xy 130.81 93.98)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d6e787f0-6dc6-4988-97a5-c8b151b51f05)
 		)
 	)
 	(netclass_flag ""

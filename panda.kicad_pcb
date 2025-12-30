@@ -9,7 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "PANDA")
-		(rev "1.1.0")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Propulsion Actuation and Nominal Data Acquisition")
 	)
@@ -133,6 +134,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)

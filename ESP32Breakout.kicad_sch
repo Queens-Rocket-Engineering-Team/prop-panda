@@ -5,8 +5,9 @@
 	(uuid "9092f80c-b9b0-4dae-9dae-281a2e0ecef6")
 	(paper "A4")
 	(title_block
-		(title "ESP32 Interface")
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols

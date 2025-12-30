@@ -5,8 +5,9 @@
 	(uuid "11ae16b9-8c25-4e2a-afdf-66438ccc87c7")
 	(paper "A4")
 	(title_block
-		(title "Valve Control")
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols
@@ -2022,36 +2023,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 105.41 81.28) (xy 168.91 81.28) (xy 168.91 120.65) (xy 105.41 120.65)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 290c6631-e940-44f9-b443-d1917530fff7)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 105.41 33.02) (xy 168.91 33.02) (xy 168.91 72.39) (xy 105.41 72.39)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6cafb5e2-64f5-4316-84d2-be5597c228d9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 29.21 81.28) (xy 92.71 81.28) (xy 92.71 120.65) (xy 29.21 120.65)
 			)
 			(stroke
@@ -2061,7 +2032,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a3e7d522-bc83-4196-9edc-33f08c0e9610)
+			(uuid 273bbd3c-37a9-4cda-8b5e-31609dd9e620)
 		)
 	)
 	(rule_area
@@ -2076,22 +2047,7 @@
 			(fill
 				(type none)
 			)
-			(uuid ac296464-70e7-4a65-bfaa-c49d48deaad3)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 179.07 81.28) (xy 242.57 81.28) (xy 242.57 120.65) (xy 179.07 120.65)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid af3fbf7f-f359-4051-a628-16a9facc4903)
+			(uuid 45c14c0e-29af-4153-a4c2-dc3c45cb7ee7)
 		)
 	)
 	(rule_area
@@ -2106,7 +2062,52 @@
 			(fill
 				(type none)
 			)
-			(uuid d7e40ac4-ee98-4f8e-a90d-911158ec8e81)
+			(uuid 535c359d-7abd-422a-854d-474c7b9fc37a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 105.41 33.02) (xy 168.91 33.02) (xy 168.91 72.39) (xy 105.41 72.39)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 751f39c4-45cd-4dec-b50c-efd04f0ca531)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 179.07 81.28) (xy 242.57 81.28) (xy 242.57 120.65) (xy 179.07 120.65)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 87c4e318-3e13-478e-8062-610e540981cb)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 105.41 81.28) (xy 168.91 81.28) (xy 168.91 120.65) (xy 105.41 120.65)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid dc956df3-79a0-4e0b-8957-98fd57a8e16d)
 		)
 	)
 	(netclass_flag ""

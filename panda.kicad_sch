@@ -5,8 +5,11 @@
 	(uuid "226c5870-4123-4efa-a2b3-b42d02f59bb7")
 	(paper "A4")
 	(title_block
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Propulsion Actuation and Data Acquisition")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

@@ -5,8 +5,9 @@
 	(uuid "56301822-906d-47e6-ab6b-05e2b5f7048e")
 	(paper "A4")
 	(title_block
-		(title "Ignitor Control")
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols

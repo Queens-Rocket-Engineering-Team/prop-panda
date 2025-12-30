@@ -5,8 +5,9 @@
 	(uuid "936199fd-7e49-4734-a2ef-dd7d42ccdc61")
 	(paper "A4")
 	(title_block
-		(title "Power Distribution")
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols

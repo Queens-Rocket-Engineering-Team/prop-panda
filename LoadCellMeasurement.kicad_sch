@@ -5,8 +5,9 @@
 	(uuid "88d382ac-4fbc-49e4-b35c-3057307e811f")
 	(paper "A4")
 	(title_block
-		(title "Load Cell Measurement")
-		(rev "1.0.0")
+		(title "PANDA")
+		(date "2025-12-21")
+		(rev "3.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols
