@@ -2068,7 +2068,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0A -> 5V\nPick 6A as max current for short detection. Ignitors should pull 3-4A.\nVout_max = REF + 6A * Rsense * Gain\n          = 0 + 6 * 0.025 * 20\n          = 3V\nAt 0A, output should be 0V\n\nI_IGN = V_out / (0.025 * 20)"
+	(text "0A -> 5V\nPick 6A as max current for short detection. Ignitors should pull 3-4A.\nVout_max = REF + 6A * Rsense * Gain\n          = 0 + 6 * 0.01 * 50\n          = 3V\nAt 0A, output should be 0V\n\nI_IGN = V_out / (0.01 * 50)"
 		(exclude_from_sim no)
 		(at 33.274 153.162 0)
 		(effects
@@ -3138,7 +3138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25m 1W"
+		(property "Value" "10m 1W"
 			(at 117.602 137.16 0)
 			(effects
 				(font
@@ -4474,7 +4474,7 @@
 				)
 			)
 		)
-		(property "Value" "INA187A1"
+		(property "Value" "INA187A2"
 			(at 92.456 131.318 0)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49262296"
+		(property "LCSC" "C49262295"
 			(at 97.79 135.89 0)
 			(effects
 				(font
