@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "ESP32_Devkit_C1")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ESP32_Devkit_C1.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/Libraries/XT60-M.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66200DRLR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM66200DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-11-28_00-28-49")(type "KiCad")(uri "${KIPRJMOD}/Libraries/2025-11-28_00-28-49.kicad_sym")(options "")(descr ""))
 )
