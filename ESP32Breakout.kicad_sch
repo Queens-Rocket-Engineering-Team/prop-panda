@@ -3568,6 +3568,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 67.31) (xy 199.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d1acd9-a7e4-4a8c-b285-99f07642b98c")
+	)
+	(wire
+		(pts
 			(xy 104.14 104.14) (xy 104.14 105.41)
 		)
 		(stroke
@@ -3838,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 77.47) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ddc3bb-2ba1-40f3-947f-5ffb84f6e86a")
+	)
+	(wire
+		(pts
 			(xy 173.99 72.39) (xy 175.26 72.39)
 		)
 		(stroke
@@ -3998,16 +4018,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 77.47) (xy 199.39 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c56379e8-f412-4d86-920a-59317edb9cfb")
-	)
-	(wire
-		(pts
 			(xy 76.2 59.69) (xy 76.2 60.96)
 		)
 		(stroke
@@ -4025,16 +4035,6 @@
 			(type default)
 		)
 		(uuid "cb49f1d0-ac75-47d3-8535-f0babcc0b6f3")
-	)
-	(wire
-		(pts
-			(xy 198.12 67.31) (xy 199.39 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccbf2cab-97d0-4f93-8dcb-30269dfbec27")
 	)
 	(wire
 		(pts
@@ -4287,7 +4287,7 @@
 		(uuid "12350f8b-2fed-498f-aa24-2217ea4301bc")
 	)
 	(label "D+"
-		(at 198.12 67.31 0)
+		(at 198.12 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4317,7 +4317,7 @@
 		(uuid "3f6fe5db-0157-4eeb-89f0-d46b8a8a29fa")
 	)
 	(label "D-"
-		(at 198.12 77.47 0)
+		(at 198.12 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
