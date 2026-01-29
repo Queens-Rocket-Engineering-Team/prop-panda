@@ -4328,7 +4328,7 @@
 	)
 	(rectangle
 		(start 135.89 118.11)
-		(end 259.08 165.1)
+		(end 267.97 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -4420,7 +4420,7 @@
 	)
 	(text "Invert buzzer so 555 sinks current\nBuzzer pulls 30mA, TLC555 can sink 100mA\nTLC555 can only source 10mA"
 		(exclude_from_sim no)
-		(at 236.474 143.51 0)
+		(at 236.728 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4601,6 +4601,12 @@
 		(uuid "5cad63b0-d4fe-423b-a024-541d66258e2d")
 	)
 	(junction
+		(at 219.71 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "617bf1d7-0d6f-4288-ae6c-389a7f397b38")
+	)
+	(junction
 		(at 143.51 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4739,6 +4745,12 @@
 		(uuid "c6721f8b-0bb1-47ad-828e-a23ab1bf9da6")
 	)
 	(junction
+		(at 228.6 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8469913-5578-4ef5-90a2-eb4047fb62dc")
+	)
+	(junction
 		(at 226.06 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4749,6 +4761,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2934844-5bc9-4373-a631-46cb0672622a")
+	)
+	(junction
+		(at 228.6 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e987c977-e0e8-443d-9784-ced6219e82ae")
 	)
 	(junction
 		(at 161.29 146.05)
@@ -4840,7 +4858,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 128.27) (xy 223.52 130.81)
+			(xy 240.03 125.73) (xy 240.03 127)
 		)
 		(stroke
 			(width 0)
@@ -5060,6 +5078,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 132.08) (xy 240.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231382a7-c599-43e5-bf6c-46cc3a783638")
+	)
+	(wire
+		(pts
 			(xy 71.12 91.44) (xy 71.12 92.71)
 		)
 		(stroke
@@ -5160,6 +5188,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 147.32) (xy 219.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f367ba2-3aaf-499c-a4e3-b446d3654298")
+	)
+	(wire
+		(pts
 			(xy 191.77 92.71) (xy 191.77 93.98)
 		)
 		(stroke
@@ -5230,6 +5268,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 140.97) (xy 227.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3691c1fb-2fc8-4f42-b84e-b776035bcc5a")
+	)
+	(wire
+		(pts
 			(xy 80.01 104.14) (xy 80.01 97.79)
 		)
 		(stroke
@@ -5297,6 +5345,16 @@
 			(type default)
 		)
 		(uuid "3eba507a-301d-414f-a6ad-c1a2b91bef41")
+	)
+	(wire
+		(pts
+			(xy 219.71 140.97) (xy 219.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4a026e-1635-438d-98f0-6e6697fb50d1")
 	)
 	(wire
 		(pts
@@ -5377,16 +5435,6 @@
 			(type default)
 		)
 		(uuid "457fea85-6eff-4799-b62c-24e583186ebb")
-	)
-	(wire
-		(pts
-			(xy 203.2 132.08) (xy 219.71 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c60aa5-b186-4245-9ac4-e194d578d6a4")
 	)
 	(wire
 		(pts
@@ -5500,6 +5548,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 140.97) (xy 219.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbd2a12-2a43-46ae-940f-42005cea1194")
+	)
+	(wire
+		(pts
+			(xy 228.6 125.73) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51875725-56e1-44cd-a479-cdfce733aaf3")
+	)
+	(wire
+		(pts
 			(xy 190.5 124.46) (xy 189.23 124.46)
 		)
 		(stroke
@@ -5547,6 +5615,16 @@
 			(type default)
 		)
 		(uuid "5506ae40-513b-4a70-ada5-e33552e05872")
+	)
+	(wire
+		(pts
+			(xy 240.03 125.73) (xy 228.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5563f7c9-43b2-4620-926e-6ee54643ea08")
 	)
 	(wire
 		(pts
@@ -5627,6 +5705,16 @@
 			(type default)
 		)
 		(uuid "5d602875-bfd3-4c4d-8d3b-56395299dc22")
+	)
+	(wire
+		(pts
+			(xy 227.33 132.08) (xy 228.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e18c00c-12d0-4068-8429-87cfb34af200")
 	)
 	(wire
 		(pts
@@ -6390,16 +6478,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 135.89) (xy 223.52 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c224cab7-5b58-4168-9e62-1123a45e0a7f")
-	)
-	(wire
-		(pts
 			(xy 104.14 88.9) (xy 105.41 88.9)
 		)
 		(stroke
@@ -6470,16 +6548,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 132.08) (xy 219.71 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8333bdd-56d5-47cd-807e-450c50f5b53c")
-	)
-	(wire
-		(pts
 			(xy 257.81 90.17) (xy 257.81 91.44)
 		)
 		(stroke
@@ -6497,6 +6565,26 @@
 			(type default)
 		)
 		(uuid "c85ee8fc-906a-4be5-8380-97ac435fbc7e")
+	)
+	(wire
+		(pts
+			(xy 203.2 132.08) (xy 217.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbb9b73-a1e5-45b5-b795-6a32149e0707")
+	)
+	(wire
+		(pts
+			(xy 220.98 140.97) (xy 219.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4f529a-ba03-4ca1-b583-110eb2c2b26d")
 	)
 	(wire
 		(pts
@@ -6637,6 +6725,16 @@
 			(type default)
 		)
 		(uuid "e07243c7-0f75-4a40-aff9-c51831d129f2")
+	)
+	(wire
+		(pts
+			(xy 228.6 125.73) (xy 228.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4af3fac-12ba-48af-bb23-c43f440bedf8")
 	)
 	(wire
 		(pts
@@ -6869,7 +6967,7 @@
 		(uuid "5f7e10be-dfa8-4ff9-93ad-62ad4e8ced50")
 	)
 	(label "+5.3V"
-		(at 223.52 128.27 0)
+		(at 228.6 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7094,6 +7192,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+24V_SAFE"
+		(shape input)
+		(at 227.33 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecb9131f-0cb9-4e61-b1f8-ee80c1509ce3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.8985 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10607,7 +10727,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 226.06 133.35 0)
+		(at 242.57 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10616,7 +10736,7 @@
 		(fields_autoplaced yes)
 		(uuid "32807fd5-27e7-403d-a8ad-34cf464bba95")
 		(property "Reference" "BZ1"
-			(at 229.87 132.0799 0)
+			(at 246.38 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10745,7 @@
 			)
 		)
 		(property "Value" "YS-SBZ9650DYB05"
-			(at 229.87 134.6199 0)
+			(at 246.38 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10754,7 @@
 			)
 		)
 		(property "Footprint" "Library:YS-SBZ9650DYB05"
-			(at 225.425 130.81 90)
+			(at 241.935 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10763,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C409830.pdf"
-			(at 225.425 130.81 90)
+			(at 241.935 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10772,7 @@
 			)
 		)
 		(property "Description" "80dB Active Buzzer (Built-in Driving Circuit) 2.7kHz 5V SMD,9.6x9.6mm Alarms, Buzzers, and Sirens RoHS"
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +10781,7 @@
 			)
 		)
 		(property "LCSC" "C409830"
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +10790,7 @@
 			)
 		)
 		(property "ADC Number" ""
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +10799,7 @@
 			)
 		)
 		(property "DCR" ""
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,7 +10808,7 @@
 			)
 		)
 		(property "I2C Address" ""
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10697,7 +10817,7 @@
 			)
 		)
 		(property "Irated" ""
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10826,7 @@
 			)
 		)
 		(property "Isat" ""
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10835,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10844,7 @@
 			)
 		)
 		(property "MFR" ""
-			(at 226.06 133.35 0)
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,6 +11319,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 219.71 144.78 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cdad4de-ad7b-4317-ace0-2d847a8d1237")
+		(property "Reference" "R99"
+			(at 217.678 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 218.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 219.71 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 219.71 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 219.71 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 219.71 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 219.71 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 219.71 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 219.71 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2cee13a-e828-44be-b3b7-c272af346480")
+		)
+		(pin "1"
+			(uuid "7a09c58d-5428-4392-9348-e5f8b0f1e750")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 191.77 92.71 0)
 		(unit 1)
@@ -11531,6 +11784,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 140.97 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "575a920e-e4f2-4b01-9ebc-25dc6f853eef")
+		(property "Reference" "R98"
+			(at 222.504 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 222.504 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cfce93b-e357-411f-b8f4-3a391f7efa95")
+		)
+		(pin "1"
+			(uuid "356260cf-8d2e-4317-8c0e-3bdfb918b9aa")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "R98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 149.86 0)
 		(unit 1)
@@ -11788,6 +12174,156 @@
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 228.6 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60303a71-ca46-48f6-bb6e-60c5a8d1c4fd")
+		(property "Reference" "D38"
+			(at 230.886 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK44BL"
+			(at 230.886 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK44BL-TP"
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151740"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a03ece5b-ccf7-46b0-a283-c71861d1ed2b")
+		)
+		(pin "2"
+			(uuid "2c5a733b-a9bb-4a12-859b-8366de56b8b6")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -14817,6 +15353,233 @@
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Transistors-FETs-MOSFETs-Single:BSS138")
+		(at 222.25 132.08 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95498f10-5d89-4bf4-9069-6e73efb2b56f")
+		(property "Reference" "Q12"
+			(at 229.362 137.16 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 227.584 134.62 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 229.87 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 50V 220MA SOT-23"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8490"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Discrete Semiconductor Products"
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Transistors - FETs, MOSFETs - Single"
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294"
+			(at 245.11 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "MOSFET N-CH 50V 220MA SOT-23"
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 250.19 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ADC Number" ""
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" ""
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" ""
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irated" ""
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ff71a6cb-9540-44d2-961a-c4aa92affba4")
+		)
+		(pin "1"
+			(uuid "13803fef-5789-47da-abe3-7689c00ff338")
+		)
+		(pin "2"
+			(uuid "83c27d5c-9ba2-4e47-9ef5-9456c6f069f1")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -17863,6 +18626,71 @@
 			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e17dbd11-3a6b-4de6-b076-f7e51064e80f")
+		(property "Reference" "#PWR0203"
+			(at 219.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d3c04bb-a4fe-4b29-b332-e3f5d9bae386")
+		)
+		(instances
+			(project "panda"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
