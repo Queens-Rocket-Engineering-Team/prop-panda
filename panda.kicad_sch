@@ -819,7 +819,7 @@
 		)
 		(uuid "101559f6-5f21-4ecc-8175-a18a8861e5f0")
 	)
-	(text "ADC1 (IGN)\nADDR: 0b100 0100"
+	(text "ADC4 (IGN)\nADDR: 0b100 0100"
 		(exclude_from_sim no)
 		(at 15.24 76.454 0)
 		(effects
@@ -843,7 +843,7 @@
 		)
 		(uuid "2b1cc7d5-c2d6-4b1c-a90d-9fd91a260c21")
 	)
-	(text "ADC5\nADDR: 0b100 0000"
+	(text "ADC1\nADDR: 0b100 0000"
 		(exclude_from_sim no)
 		(at 15.24 17.78 0)
 		(effects
@@ -856,7 +856,7 @@
 		)
 		(uuid "3901ffbd-8570-4c07-9c2c-fbd908fcf7cf")
 	)
-	(text "ADC4 (TC)\nADDR: 0b100 0010"
+	(text "ADC3 (TC)\nADDR: 0b100 0010"
 		(exclude_from_sim no)
 		(at 15.748 134.62 0)
 		(effects
@@ -880,7 +880,7 @@
 		)
 		(uuid "585ae56a-812d-479e-80ca-99a5220e9818")
 	)
-	(text "ADC3 (TC)\nADDR: 0b100 0101"
+	(text "ADC5 (TC)\nADDR: 0b100 0101"
 		(exclude_from_sim no)
 		(at 15.24 105.664 0)
 		(effects
@@ -7243,7 +7243,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "21243b6d-fc9e-4696-b2f4-96a9d8b17f22")
-		(property "Sheetname" "ADC5"
+		(property "Sheetname" "ADC1"
 			(at 48.006 20.828 0)
 			(effects
 				(font
@@ -7374,7 +7374,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3f5b8635-13bc-4ad2-9bf0-4c038d9fbe7c")
-		(property "Sheetname" "ADC4"
+		(property "Sheetname" "ADC3"
 			(at 48.006 138.176 0)
 			(effects
 				(font
@@ -7505,7 +7505,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4a1cd1f9-a826-4e08-8147-8c929dc65372")
-		(property "Sheetname" "ADC3"
+		(property "Sheetname" "ADC5"
 			(at 48.006 108.966 0)
 			(effects
 				(font
@@ -7820,7 +7820,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "54d983a6-6da5-442c-8bd0-bcb1e102add1")
-		(property "Sheetname" "ADC1"
+		(property "Sheetname" "ADC4"
 			(at 48.26 79.502 0)
 			(effects
 				(font
