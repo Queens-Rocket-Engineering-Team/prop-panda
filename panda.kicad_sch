@@ -2345,7 +2345,7 @@
 			)
 		)
 	)
-	(global_label "DRDY1"
+	(global_label "DRDY4"
 		(shape output)
 		(at 77.47 86.36 0)
 		(fields_autoplaced yes)
@@ -2411,7 +2411,7 @@
 			)
 		)
 	)
-	(global_label "DRDY4"
+	(global_label "DRDY3"
 		(shape output)
 		(at 77.47 144.78 0)
 		(fields_autoplaced yes)
@@ -2741,7 +2741,7 @@
 			)
 		)
 	)
-	(global_label "DRDY3"
+	(global_label "DRDY5"
 		(shape output)
 		(at 77.47 115.57 0)
 		(fields_autoplaced yes)
@@ -2983,7 +2983,7 @@
 			)
 		)
 	)
-	(global_label "DRDY5"
+	(global_label "DRDY1"
 		(shape output)
 		(at 77.47 27.94 0)
 		(fields_autoplaced yes)
