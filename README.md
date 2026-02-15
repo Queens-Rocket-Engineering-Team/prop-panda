@@ -21,12 +21,6 @@ Ignitor monitoring is also built into the board. Ignitor current readings are ob
 ```mermaid
 ---
 title: PANDA Communications Flow
-displayMode: compact
-config:
-  layout: elk
-  elk:
-    mergeEdges: false
-    nodePlacementStrategy: NETWORK_SIMPLEX
 ---
 flowchart LR
 
@@ -58,7 +52,7 @@ flowchart LR
     ESP --> RUN
     ESP --> PRIME
 
-    WIFI(External Server) <-. WiFI .-> ESP
+    ESP <-. WiFI .-> WIFI(External Server)
 ```
 
 PANDA operates from a 24VDC power supply, and has a maximum current rating of 10A. The 24V rail is first stepped down to 5.3V with a switching converter and then dropped to 5V and 3.3V with LDOs. The 5V rail supplies analog systems, and the 3.3V rail supplies digital systems. Using LDOs on the switching output allows for low-noise power for analog measurements.
@@ -68,17 +62,17 @@ The 24VSAFE rail is only be energized when the fill panel is vacated, as it powe
 ```mermaid
 ---
 title: PANDA Power Distribution
-displayMode: compact
-config:
-  theme: dark
-  layout: elk
-  elk:
-    mergeEdges: false
-    nodePlacementStrategy: NETWORK_SIMPLEX
 ---
 flowchart LR
 
     24VIN([24VIN]) --> 24VSAFE[24VSAFE<br>Relay]
+
+    subgraph Valves
+        AV(Valves)
+        AVSAFE(Fill Valve<br>Run Valve)
+    end
+    24VIN --> AV
+    24VSAFE --> AVSAFE
 
     subgraph Ignitor
         RUN[Ignitor Run<br>Relay]
@@ -87,13 +81,6 @@ flowchart LR
     end
 
     24VSAFE --> RUN[Ignitor Run<br>Relay]
-
-    subgraph Valves
-        AV(Valves)
-        AVSAFE(Fill Valve<br>Run Valve)
-    end
-    24VIN --> AV
-    24VSAFE --> AVSAFE
 
     subgraph Voltage Regulation
         BUCK([5.3V Buck])
@@ -109,8 +96,8 @@ flowchart LR
         RES(Ignitor Current<br>Sensor)
     end
 
-    3V3 --> ESP(ESP32 MCU)
     5V --> ADC(ADS112C04<br>ADCs)
+    3V3 --> ESP(ESP32 MCU)
     3V3 --> ADC
     24VIN --> PT
     5V --> LC
