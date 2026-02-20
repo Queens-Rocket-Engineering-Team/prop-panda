@@ -32,7 +32,7 @@ flowchart LR
         RUN[Ignitor Run<br>Relay]
         PRIME[Ignitor Prime<br>Relay]
     end
-    
+
     subgraph Sensors
         PT(Pressure Transducers)
         TC(Thermocouples)
@@ -105,7 +105,9 @@ flowchart LR
 ```
 
 ## Required Software
+
 To open the project files, the only required application is KiCad. If manufacturing with JLCPCB, install the Fabrication Toolkit KiCad plugin for JLCPCB.
 
 ## Recommended Manufacturing Options
-If ordering from JLCPCB, use the JLC04161H-3313 stackup option. For JLCP PCBA, the standard PCBA option is required due to the ESP32S3-WROOM-1U.
+
+If ordering from JLCPCB, use the JLC04161H-3313 stackup option. For JLC PCBA, the standard PCBA option is required due to the ESP32S3-WROOM-1U.
