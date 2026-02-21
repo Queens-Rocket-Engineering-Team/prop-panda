@@ -1,6 +1,9 @@
 # PANDA Control Board
 
-PANDA (Propulsion Actuation and Nominal Data Acquisition) is the control PCB for the Queen's Rocket Engineering Team hybrid rocket engine. This board actuates valves on the hybrid engine fill panel, controls rocket ignition, and provides pre-launch data acquisition. PANDA is a standalone static fire test stand controller, and provides valve control for ground systems during a launch. PANDA retains ignition control during launch.
+PANDA (Propulsion Actuation and Nominal Data Acquisition) is the control PCB for the Queen's Rocket Engineering Team's
+hybrid rocket engine. During launch, PANDA controls systems on the fill plumbing panel, controls rocket ignition, and
+provides pre-launch data acquisition. PANDA also functions as a standalone static fire test stand controller that
+can execute all aspects of a hot-fire test.
 
 ## Assembled PCB
 
@@ -8,7 +11,9 @@ PANDA (Propulsion Actuation and Nominal Data Acquisition) is the control PCB for
 
 ## System Architecture
 
-PANDA uses an ESP32S3-WROOM-1U microcontroller for systems control. This ESP32S3 communicates with an external server for streaming sensor readings and remote actuation. All commands are sent from the external server, as PANDA does not autonomously control the fill panel.
+PANDA uses an ESP32S3-WROOM-1U microcontroller for systems control. This ESP32S3 communicates with an external control
+server to for remote control and data streaming over 2.4GHz WiFi. All commands are sent from the external server, as
+PANDA does not autonomously control any systems.
 
 Five ADS112C04 ADCs provide sensor readings to the ESP32S3 over an I2C bus. Sensors supported are:
 
@@ -16,7 +21,12 @@ Five ADS112C04 ADCs provide sensor readings to the ESP32S3 over an I2C bus. Sens
 - 4 thermocouples
 - 2 load cells
 
-Ignitor monitoring is also built into the board. Ignitor current readings are obtained with a current sense amplifier across a shunt resistor in the ignitor path. Ignitor resistance readings are obtained by injecting a current from the ADC's IDAC (current source), and measuring the resulting voltage. A communications diagram for PANDA can be seen below.
+PANDA is also capable of monitoring ignitor characteristics. Measurements of the current passing through a nichrome wire
+ignitor are obtained using a current sense amplifier across a shunt resistor in the ignitor path. Ignitor resistance
+readings are also measured by injecting a small current from an IDAC on an ADC, and
+measuring the resulting voltage.
+
+A communications diagram for PANDA can be seen below.
 
 ```mermaid
 ---
@@ -32,7 +42,7 @@ flowchart LR
         RUN[Ignitor Run<br>Relay]
         PRIME[Ignitor Prime<br>Relay]
     end
-    
+
     subgraph Sensors
         PT(Pressure Transducers)
         TC(Thermocouples)
@@ -54,6 +64,8 @@ flowchart LR
 
     ESP <-. WiFI .-> WIFI(External Server)
 ```
+
+## Power Architecture
 
 PANDA operates from a 24VDC power supply, and has a maximum current rating of 10A. The 24V rail is first stepped down to 5.3V with a switching converter and then dropped to 5V and 3.3V with LDOs. The 5V rail supplies analog systems, and the 3.3V rail supplies digital systems. Using LDOs on the switching output allows for low-noise power for analog measurements.
 
@@ -105,7 +117,10 @@ flowchart LR
 ```
 
 ## Required Software
-To open the project files, the only required application is KiCad. If manufacturing with JLCPCB, install the Fabrication Toolkit KiCad plugin for JLCPCB.
+
+This project was created using KiCad v9.0. If manufacturing with JLCPCB, install the Fabrication Toolkit KiCad plugin for JLCPCB.
 
 ## Recommended Manufacturing Options
-If ordering from JLCPCB, use the JLC04161H-3313 stackup option. For JLCP PCBA, the standard PCBA option is required due to the ESP32S3-WROOM-1U.
+
+If ordering from JLCPCB, use the JLC04161H-3313 stackup option. For JLC PCBA, the standard PCBA option is required due
+to the ESP32S3-WROOM-1U being unavailable as a part in the economic PCBA assembly.
