@@ -23,7 +23,7 @@ Five ADS112C04 ADCs provide sensor readings to the ESP32S3 over an I2C bus. Sens
 
 PANDA is also capable of monitoring ignitor characteristics. Measurements of the current passing through a nichrome wire
 ignitor are obtained using a current sense amplifier across a shunt resistor in the ignitor path. Ignitor resistance
-readings are also measured by injecting a small current from an IDAC on one of the ADCs used to measure sensors and
+readings are also measured by injecting a small current from an IDAC on an ADC, and
 measuring the resulting voltage.
 
 A communications diagram for PANDA can be seen below.
